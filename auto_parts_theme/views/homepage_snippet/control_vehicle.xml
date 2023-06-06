@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="control_vehicle_s_2" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="auto_parts_theme.control_vehicle_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/homepage/3_copy.png"/>
+            </xpath>
+        </template>
+        <template id="control_vehicle_s" name="Control Vehicle">
+           <section class="control_vehicle_auto_parts">
+               <div class="container">
+                  <div class="banner_holder_control_vehicle_auto_parts" style="margin-top:-100px; position:relative;" data-aos="fade-up" data-aos-duration="2500">
+                     <img src="/auto_parts_theme/static/src/img/control_v/control_banner.png" class="img-fluid" style="border-radius:10px; margin-bottom:30px;"/>
+                     <h4>Lorem ipsum <br/>dolor sit amet</h4>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-4">
+                        <div class="container">
+                           <ul class="nav nav-pills" role="tablist">
+                              <li class="nav-item nav-item_custom_auto_parts_07">
+                                 <a class="nav-link active" data-bs-toggle="pill" href="#home">
+                                    <img src="/auto_parts_theme/static/src/img/control_v/chassis.png" style="width:50px; height:50px;"/>
+                                    <span style="display: block; width:100%; text-align:center; font-family: 'Staatliches', cursive; letter-spacing:1px;">Lorem ipsum</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item nav-item_custom_auto_parts_07">
+                                 <a class="nav-link" data-bs-toggle="pill" href="#menu1">
+                                    <img src="/auto_parts_theme/static/src/img/control_v/disc-brake.png" style="width:50px; height:50px;"/>
+                                    <span style="display: block; width:100%; text-align:center; font-family: 'Staatliches', cursive; letter-spacing:1px;">Lorem ipsum</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item nav-item_custom_auto_parts_07">
+                                 <a class="nav-link" data-bs-toggle="pill" href="#menu2">
+                                    <img src="/auto_parts_theme/static/src/img/control_v/battery.png" style="width:50px; height:50px;"/>
+                                    <span style="display: block; width:100%; text-align:center; font-family: 'Staatliches', cursive; letter-spacing:1px;">Lorem ipsum</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item nav-item_custom_auto_parts_07">
+                                 <a class="nav-link" data-bs-toggle="pill" href="#menu3">
+                                    <img src="/auto_parts_theme/static/src/img/control_v/car-parts.png" style="width:50px; height:50px;"/>
+                                    <span style="display: block; width:100%; text-align:center; font-family: 'Staatliches', cursive; letter-spacing:1px;">Lorem ipsum</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-8">
+                        <div class="tab-content">
+                           <div id="home" class="container tab-pane active">
+                                 <h3>Lorem ipsum</h3>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                           </div>
+                           <div id="menu1" class="container tab-pane fade">
+                                 <h3>Lorem ipsum</h3>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                           </div>
+                           <div id="menu2" class="container tab-pane fade">
+                                 <h3>Lorem ipsum</h3>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                           </div>
+                           <div id="menu3" class="container tab-pane fade">
+                                 <h3>Lorem ipsum</h3>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+        </template>
+    </data>
+</odoo>

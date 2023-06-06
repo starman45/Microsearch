@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="special_offer_main" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="auto_parts_theme.special_offer_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/homepage/7_copy.png"/>
+            </xpath>
+        </template>
+        <template id="special_offer_s" name="Special Offer">
+          <!-- special_offer -->
+            <section class="special_offer_auto_parts_24" style="margin-bottom:50px;">
+               <div class="auto_services_tittle_block">
+                  <strong style="margin-bottom: 20px;">
+                     Special Offer
+                  </strong>
+               </div>
+               <div class="container">
+                  <div class="row">
+                     <div class="swiper swiper_auto_parts_special_offer">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="swiper_image_holder_special_offer_autoparts_24" style="display:flex; margin-bottom:50px;">
+                                 <img src="/auto_parts_theme/static/src/img/offer/ofr_1.png" class="img-fluid" style="position:relative;z-index: 99999; width: 300px; height: 275px;"/>
+                                 <div class="balck_box_special_ofr_auto_parts">
+                                    <div class="desc_special_offer_swiper_auto_parts_24" style="margin-left:90px;">
+                                       <h4 style="font-family: 'Staatliches', cursive; margin-top:20px; letter-spacing: 1px;">Lorem ipsum dolor sit amet</h4>
+                                       <p>
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                       </p>
+                                    </div>
+                            <div class="Add_to_cart_btn" style="margin-top:15px; margin-left:80px;">
+                              <a href="#" class="btn_acele btn_black" style="padding:8px 50px;"><i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart</a>
+                            </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="swiper_image_holder_special_offer_autoparts_24" style="display:flex; margin-bottom:50px;">
+                                 <div class="red_box_special_ofr_auto_parts" style="background:#c20000; border-radius:5px; margin-top: 10px; color: #fff;text-align:left; padding:10px; width: 580px;">
+                                    <div class="desc_special_offer_swiper_auto_parts_24" style="margin-left:10px;">
+                                       <h4 style="font-family: 'Staatliches', cursive; margin-top:20px; letter-spacing: 1px;">Lorem ipsum dolor sit amet</h4>
+                                       <p style="width: 285px;">
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                       </p>
+                                    </div>
+                                    <div class="Add_to_cart_btn" style="margin-top:15px;">
+                                       <a href="#" class="btn_acele btn_black" style="padding:8px 50px;">
+                                          <i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <img src="/auto_parts_theme/static/src/img/offer/ofr_2.png" class="img-fluid" style="position:relative;z-index: 99999; width: 300px; height: 275px; margin-left:-80px;"/>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="swiper_image_holder_special_offer_autoparts_24" style="display:flex; margin-bottom:50px;">
+                                 <img src="/auto_parts_theme/static/src/img/offer/ofr_3.png" class="img-fluid" style="position:relative;z-index: 99999; width: 300px; height: 275px;"/>
+                                 <div class="balck_box_special_ofr_auto_parts">
+                                    <div class="desc_special_offer_swiper_auto_parts_24" style="margin-left:90px;">
+                                       <h4 style="font-family: 'Staatliches', cursive; margin-top:20px; letter-spacing: 1px;">Lorem ipsum dolor sit amet</h4>
+                                       <p>
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                       </p>
+                                    </div>
+                                    <div class="Add_to_cart_btn" style="margin-top:15px; margin-left:80px;">
+                                       <a href="#" class="btn_acele btn_black" style="padding:8px 50px;">
+                                          <i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="swiper_image_holder_special_offer_autoparts_24" style="display:flex; margin-bottom:50px;">
+                                 <div class="red_box_special_ofr_auto_parts" style="background:#c20000; border-radius:5px; margin-top: 10px; color: #fff;text-align:left; padding:10px; width: 580px;">
+                                    <div class="desc_special_offer_swiper_auto_parts_24" style="margin-left:10px;">
+                                       <h4 style="font-family: 'Staatliches', cursive; margin-top:20px; letter-spacing: 1px;">Lorem ipsum dolor sit amet</h4>
+                                       <p style="width: 285px;">
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                       </p>
+                                    </div>
+                                    <div class="Add_to_cart_btn" style="margin-top:15px;">
+                                       <a href="#" class="btn_acele btn_black" style="padding:8px 50px;">
+                                          <i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <img src="/auto_parts_theme/static/src/img/offer/ofr_4.png" class="img-fluid" style="position:relative;z-index: 99999; width: 300px; height: 275px; margin-left:-80px;"/>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                     </div>
+                  </div>
+                <div class="more_product_btn" style="margin-top:50px; text-align: center;">
+                  <a href="#" class="btn_acele btn_black">More Product</a>
+                </div>
+               </div>
+            </section>
+            <!-- end_special_offer -->
+
+        </template>
+    </data>
+</odoo>

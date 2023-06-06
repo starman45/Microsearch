@@ -1,0 +1,40 @@
+.latest_deals_for_this_week_gem h4{
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.latest_deals_for_this_week_gem .view_All_btn_latest_deals {
+  font-family: 'Staatliches', cursive;
+  margin-left: auto;
+  color: #000;
+}
+.latest_deals_for_this_week_gem .product_detalis_comn_design .img_holder_latest_deals, .products_deals_cntr .image_holder_cntr_78{
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  display: inline-block;
+}
+.latest_deals_for_this_week_gem .content_detalis_deals h4{
+  font-size: 18px;
+  color: #000;
+}
+.latest_deals_for_this_week_gem .rating_deals_gem  {
+  color: gold;
+  font-size: 12px;
+}
+.latest_deals_for_this_week_gem .centre_deals_box_14 {
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 20px;
+}
+.latest_deals_for_this_week_gem .countdown_auto_parts_24 li{
+  font-family: 'Staatliches', cursive;
+  margin-right: 20px;
+  font-size: 25px;
+}
+.latest_deals_for_this_week_gem .products_deals_cntr .content_detalis_deals h4{
+  margin-top:20px;
+  font-size: 20px;
+}
+.latest_deals_for_this_week_gem .products_deals_cntr .content_detalis_deals i{
+  font-size: 18px;
+}

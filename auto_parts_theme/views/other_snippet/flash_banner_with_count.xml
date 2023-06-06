@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="flash_banner_with_count_main" inherit_id="website.snippets">
+      <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="auto_parts_theme.flash_banner_with_count_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/others/flash_banner_with_count.png"/>
+      </xpath>
+    </template>
+    <template id="flash_banner_with_count_s" name="Flash Banner With Countdown">
+      <section class="flash_banner_with_count_S">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content_left_side_flash-banner">
+                <h2>Flash Deals</h2>
+                <span class="desc_span_flash_banner">Lorem ipsum dolor sit amet consectetur adipiscing elit</span>
+                <a href="#" class="addtocart_btn_flash_banner">Add To Cart</a>
+                <div class="countdown_auto_parts_flash_bn" style="margin-top:45px;">
+                  <h1 id="headline"></h1>
+                  <div id="countdown">
+                    <ul style="padding:0px; list-style: none; display:flex; justify-content:center;">
+                      <li><span id="days"></span></li>
+                      <li><span id="hours"></span></li>
+                      <li><span id="minutes"></span></li>
+                      <li><span id="seconds"></span></li>
+                    </ul>
+                  </div>
+                  <div id="content" class="emoji">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="left_side_flash_image_holder">
+                <img src="/auto_parts_theme/static/src/img/other_snippet/flash_banner/bg_left.png" class="img-fluid"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+  </data>
+</odoo>

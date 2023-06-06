@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_6" inherit_id="website.layout" name="footer_6" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <div class="newsletter_footer_6">
+                        <h4>
+                            Join newsletter and <br/>get $10 discount
+                        </h4>
+                        <div class="subcribe_from_ft_6">
+                            <input type="email" class="custom_ft_6-input" placeholder="Your emaill address"/>
+                                <a href="#" class="subcribe_btn_ft_6">Subcribe</a>
+                            </div>
+                        </div>
+
+                        <section class="footer_6_gem_auto_parts_thm">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4" style="border-right:1px solid;">
+                                            <div class="upper_detalis_logo_ft_6">
+                                                <div class="logo_holder_ft_6">
+                                                    <img src="/auto_parts_theme/static/src/img/footer/logo.png" />
+                                                </div>
+                                                <h4 class="company_desc_ft_6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-md-6">
+                                                    <div class="links_compnay">
+                                                        <h5>Need Help</h5>
+                                                        <a href="#">
+                                                            <span> +91 (800) (047) (3006)</span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span>contact@geminatecs.com</span>
+                                                        </a>
+                                                        <div class="social_media_gem">
+                                                            <i class="fa fa-facebook"></i>
+                                                            <i class="fa fa-twitter"></i>
+                                                            <i class="fa fa-instagram"></i>
+                                                            <i class="fa fa-youtube-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-md-6">
+                                                    <div class="links_compnay">
+                                                        <h5>Use link</h5>
+                                                        <ul style="list-style: none; padding: 0px;">
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-md-6">
+                                                    <div class="links_compnay">
+                                                        <h5>Use link</h5>
+                                                        <ul style="list-style: none; padding: 0px;">
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+                    </xpath>
+                </template>
+            </data>
+        </odoo>

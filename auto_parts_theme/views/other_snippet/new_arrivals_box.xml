@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="new_arrivals_main" inherit_id="website.snippets">
+			<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+				<t t-snippet="auto_parts_theme.new_arrivals_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/others/new_arrivals_1_box.png"/>
+			</xpath>
+		</template>
+		<template id="new_arrivals_s" name="New Arrivals">
+			<section class="new_arrivals_box_gem"> 
+				<div class="container">
+					<div class="upper_tittle_special_deals_box" style="text-align:center;">
+						<h4>NEW ARRIVALS</h4>
+					</div>
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="comn_design_product_item left_side_design_product_item">
+								<div class="ctr_img_holder_new_arrivals" style="border-bottom: 1px solid #cfcaca; padding-bottom: 10px;">
+									<img src="/auto_parts_theme/static/src/img/other_snippet/new_arrivals/right_1.jpg" class="img-fluid"/>
+									</div>
+									<div class="content_new_arrials_box" style="text-align:center;">
+										<h5>Lorem ipsum dolor sit amet</h5>
+										<div class="rating_new_arrivals_box_gem">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<span style="font-family: 'Staatliches', cursive; color:red; font-size:25px; display: block;">$202</span>
+										<a href="#" class="add_to_cart_new_arrivals">Add To Cart</a>
+									</div>
+								</div>
+								<div class="comn_design_product_item left_side_design_product_item">
+									<div class="ctr_img_holder_new_arrivals" style="border-bottom: 1px solid #cfcaca; padding-bottom: 10px;">
+										<img src="/auto_parts_theme/static/src/img/other_snippet/new_arrivals/right_2.jpg" class="img-fluid"/>
+										</div>
+										<div class="content_new_arrials_box" style="text-align:center;">
+											<h5>Lorem ipsum dolor sit amet</h5>
+											<div class="rating_new_arrivals_box_gem">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<span style="font-family: 'Staatliches', cursive; color:red; font-size:25px; display: block;">$202</span>
+											<a href="#" class="add_to_cart_new_arrivals">Add To Cart</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="comn_design_product_item">
+										<div class="ctr_img_holder_new_arrivals" style="border-bottom: 1px solid #cfcaca; padding-bottom: 10px;">
+											<img src="/auto_parts_theme/static/src/img/other_snippet/new_arrivals/cntr_1.jpg" class="img-fluid"/>
+											</div>
+											<div class="content_new_arrials_box" style="text-align:center;">
+												<h5>Lorem ipsum dolor sit amet</h5>
+												<div class="rating_new_arrivals_box_gem">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<p style="font-family: 'Staatliches', cursive; color:#000; line-height: 39px;">
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+												</p>
+												<span style="font-family: 'Staatliches', cursive; color:red; font-size:25px; display: block;">$202</span>
+												<a href="#" class="add_to_cart_new_arrivals">Add To Cart</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3">
+										<div class="comn_design_product_item left_side_design_product_item">
+											<div class="ctr_img_holder_new_arrivals" style="border-bottom: 1px solid #cfcaca; padding-bottom: 10px;">
+												<img src="/auto_parts_theme/static/src/img/other_snippet/new_arrivals/left_1.jpg" class="img-fluid"/>
+												</div>
+												<div class="content_new_arrials_box" style="text-align:center;">
+													<h5>Lorem ipsum dolor sit amet</h5>
+													<div class="rating_new_arrivals_box_gem">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<span style="font-family: 'Staatliches', cursive; color:red; font-size:25px; display: block;">$202</span>
+													<a href="#" class="add_to_cart_new_arrivals">Add To Cart</a>
+												</div>
+											</div>
+											<div class="comn_design_product_item left_side_design_product_item">
+												<div class="ctr_img_holder_new_arrivals" style="border-bottom: 1px solid #cfcaca; padding-bottom: 10px;">
+													<img src="/auto_parts_theme/static/src/img/other_snippet/new_arrivals/left_2.jpg" class="img-fluid"/>
+													</div>
+													<div class="content_new_arrials_box" style="text-align:center;">
+														<h5>Lorem ipsum dolor sit amet</h5>
+														<div class="rating_new_arrivals_box_gem">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<span style="font-family: 'Staatliches', cursive; color:red; font-size:25px; display: block;">$202</span>
+														<a href="#" class="add_to_cart_new_arrivals">Add To Cart</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</template>
+						</data>
+					</odoo>

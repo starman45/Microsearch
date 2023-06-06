@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+	<data>
+		<template id="template_footer_2" inherit_id="website.layout" name="Footer_2" active="False">
+			<xpath expr="//div[@id='footer']" position="replace">
+				<div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+					<section class="footer_2_gem_auto_parts_thm">
+						<span class="vc_row-overlay" style="background-color: rgba(0,0,0,0.82) !important;"></span>
+						<div class="container">
+							<div class="all_detalis" style="padding: 80px 0px 16px 0px;">
+								<div class="row">
+									<div class="col-lg-3 col-sm-6 col-md-6">
+										<div class="tittle_footer_2">
+											<h4>About US <span class="sep-element"></span></h4>
+											<ul style="padding:0px; list-style:none">
+												<li>
+													<span style="color: #fff; font-family: 'Staatliches', cursive; letter-spacing:1px;">
+														309, City Center Arcade, Nr. ST Bus Station,
+														Krishnanagar, Ahmedabad,Gujarat - 382345, India 
+													</span>
+												</li>
+												<li>
+													<a href="#">
+														+91 (800) (047) (3006)
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														contact@geminatecs.com
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-sm-6 col-md-6">
+										<div class="tittle_footer_2">
+											<h4>Use Full Links <span class="sep-element" style="right:40px;"></span></h4>
+											<ul style="padding:0px; list-style:none">
+												<li>
+													<a href="#">
+														Lorem ipsum
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														Lorem ipsum
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														Lorem ipsum
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														Lorem ipsum
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-sm-6 col-md-6">
+										<div class="tittle_footer_2">
+											<h4>News <span class="sep-element" style="right:140px;"></span></h4>
+											<ul style="padding:0px; list-style:none">
+												<li>
+													<a href="#">
+														11 Novemne 2022
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														11 Novemne 2022
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														11 Novemne 2022
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														11 Novemne 2022
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-sm-6 col-md-6">
+										<div class="tittle_footer_2">
+											<h4>Question <span class="sep-element" style="right:100px;"></span></h4>
+											<div class="form_footer_1">
+												<input class="custom_input_footer" placeholder="Name*"/>
+													<input class="custom_input_footer" placeholder="Phone*"/>
+														<textarea style="width: 100%; background: none; border:none; border-bottom: 1px solid #3e3e3e; outline: none;" placeholder="Enter message">
+														</textarea>
+														<a href="#" class="send_footer_btn">Send</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="logo_and_line_area">
+										<div class="row">
+											<div class="col-lg-4">
+												<div class="divider_footer_2"></div>
+											</div>
+											<div class="col-lg-4">
+												<div class="img_holder_footer_1" style="text-align:center;">
+													<img src="/auto_parts_theme/static/src/img/footer/logo.png"/>
+													</div>
+												</div>
+												<div class="col-lg-4">
+													<div class="divider_footer_2"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</xpath>
+					</template>
+				</data>
+			</odoo>

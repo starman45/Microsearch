@@ -1,0 +1,51 @@
+a:hover{
+	text-decoration: none;
+}
+
+.specail_deals_2_with_bn_S {
+	margin: 20px 0px;
+}
+.specail_deals_2_with_bn_S .tittle_spe_deal_bn_s h2{
+	color: #000;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+	font-weight: 800;
+}
+.specail_deals_2_with_bn_S .comn_design_spe_deals_bn_s {
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.specail_deals_2_with_bn_S .content_spe_deals_s h4{
+	color: #000;
+	font-family: 'Staatliches', cursive;
+}
+.specail_deals_2_with_bn_S .content_spe_deals_s p{
+	color: #9d9a9a;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+	font-size:12px;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+.specail_deals_2_with_bn_S .rating_spe_with_bn_s i {
+	color: gold;
+}
+.specail_deals_2_with_bn_S .prize_spe_bn{
+	color: red;
+	font-family: 'Staatliches', cursive;
+	margin-top: 10px;
+	display: block;
+	font-size: 25px;
+}
+.specail_deals_2_with_bn_S .shopnow_spe_deals_2 {
+	background: red;
+	padding: 10px 20px;
+	display: inline-block;
+	letter-spacing: 1px;
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	border-radius: 5px;
+	margin-top:15px;
+}

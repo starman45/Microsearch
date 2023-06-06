@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_8" inherit_id="website.layout" name="footer_8" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="footer_8_gem_auto_parts_thm">
+                        <div class="container">
+                            <div class="upper_other_detalis_ft_8">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <div class="one_icon_sec" style="display:flex;">
+                                            <div class="icon_holder_ft_8">
+                                                <img src="https://demo.ishithemes.com/opencart/OPC075/image/cache/catalog/services/servicesimage-1-35x48.png"/>
+                                                </div>
+                                                <div class="desc_ft_8_auto_parts">
+                                                    <span>lorem ipsum</span><br/>
+                                                    <span>lorem ipsum</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="one_icon_sec" style="display:flex;">
+                                                <div class="icon_holder_ft_8">
+                                                    <img src="https://demo.ishithemes.com/opencart/OPC075/image/cache/catalog/services/servicesimage-2-35x48.png"/>
+                                                    </div>
+                                                    <div class="desc_ft_8_auto_parts">
+                                                        <span>lorem ipsum</span><br/>
+                                                        <span>lorem ipsum</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                                <div class="one_icon_sec" style="display:flex;">
+                                                    <div class="icon_holder_ft_8">
+                                                        <img src="https://demo.ishithemes.com/opencart/OPC075/image/cache/catalog/services/servicesimage-3-35x48.png"/>
+                                                        </div>
+                                                        <div class="desc_ft_8_auto_parts">
+                                                            <span>lorem ipsum</span><br/>
+                                                            <span>lorem ipsum</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                                    <div class="one_icon_sec" style="display:flex;">
+                                                        <div class="icon_holder_ft_8">
+                                                            <img src="https://demo.ishithemes.com/opencart/OPC075/image/cache/catalog/services/servicesimage-4-35x48.png"/>
+                                                            </div>
+                                                            <div class="desc_ft_8_auto_parts">
+                                                                <span>lorem ipsum</span><br/>
+                                                                <span>lorem ipsum</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-5 col-sm-12 col-md-12 order-lg-2">
+                                                    <div class="logo_holder_ft_8" style="text-align:center;">
+                                                        <img src="/auto_parts_theme/static/src/img/footer/logo.png" style="margin-bottom: 20px;"/>
+                                                    </div>
+                                                    <div class="contact_detalis_ft_8" style="text-align:center;">
+                                                        <span>309, City Center Arcade, Nr. ST Bus Station, Krishnanagar, Ahmedabad,Gujarat - 382345, India</span>
+                                                        <span><a href="#">+91 (800) (047) (3006)</a></span>
+                                                        <span><a href="#">contact@geminatecs.com</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 col-md-6 order-lg-1">
+                                                    <div class="company_link_ft_8">
+                                                        <h4>Use Full Link</h4>
+                                                        <ul style="padding:0px; list-style:none;">
+                                                            <li>
+                                                                <a href="#">
+                                                                    lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    lorem ipsum
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-md-6 order-lg-3">
+                                                    <div class="Newsletter_box">
+                                                        <h4>Newsletter</h4>
+                                                        <p>Lorem ipsum dolor sit amet conse ctetur Lorem ipsum dolor sit amet conse Lorem ipsum dolor sit amet conse ctetur</p>
+                                                        <input type="email" class="input_custom_ft_8" placeholder="Enter Email"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </xpath>
+                            </template>
+                        </data>
+                    </odoo>

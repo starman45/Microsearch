@@ -1,0 +1,43 @@
+.Countdown_product_with_daildeals_silder_gem .backgroud_white_box {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    padding: 30px 20px;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    height: 450px;
+    margin:20px 0px;
+}
+.Countdown_product_with_daildeals_silder_gem .content_details_bx_6 h4,.Countdown_product_with_daildeals_silder_gem .decs_right_count_gem {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+}
+.Countdown_product_with_daildeals_silder_gem .rating_count_sidler {
+    color: gold;
+}
+.Countdown_product_with_daildeals_silder_gem .shop_now_btn_count {
+    background: red;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.Countdown_product_with_daildeals_silder_gem .right_side_box h4{
+    font-family: 'Staatliches', cursive;
+    color: #000;
+    font-size: 18px;
+}
+.Countdown_product_with_daildeals_silder_gem .right_side_box i{
+    color: gold;
+    font-size: 12px;
+}
+.Countdown_product_with_daildeals_silder_gem .countdown_auto_parts li span {
+  display: block;
+  font-size:25px;
+  margin-right:50px;
+  font-family: 'Staatliches', cursive;
+  justify-content: center;
+
+}

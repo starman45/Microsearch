@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="header_four" inherit_id="website.layout" name="Template Header Sidebar" active="False">
+        <xpath expr="//header//nav" position="replace">
+            <div class="main_header_auto_parts_theme_4">
+                <div class="container">
+                    <div class="upper_detais_area">
+                        <div class="col-lg-6">
+                            <div class="detalis">
+                                <a href="#">
+                                    <span style="margin-right:30px; letter-spacing: 1px;"><i class="fa fa-phone" style="margin-right:5px;"></i>+91 8000473006</span>
+                                </a>
+                                <a href="#">
+                                    <span style="margin-right:30px; letter-spacing:1px;"><i class="fa fa-envelope" style="margin-right:5px;"></i>contact@geminatecs.com</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="followus">
+                                <span style="margin-right:15px;">Follow Us:</span>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="header_auto_parts_4">
+                        <div class="navbar-container_hd_5_new_ecom container">
+                            <input type="checkbox" id="nav-toggle"/>
+                            <div class="logo">
+                                <a href="#" class="logo_a">
+                                    <img src="/auto_parts_theme/static/src/img/header/geminate_logo.png" class="img-fluid" width="200px;"/>
+                                </a>
+                            </div>
+                            <label for="nav-toggle" class="icon-burger">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </label>
+
+                            <ul class="links" id="leble_header_them_5">
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <t t-set="link_class" t-valuef="nav-link"/>
+                                    </t>
+                                </t>
+                                <div class="other_btn_hd_5_icon" style="display: flex;">
+                                    <t t-call="portal.placeholder_user_sign_in">
+                                        <t t-set="_item_class" t-valuef="nav-item ml-3"/>
+                                        <t t-set="_link_class" t-valuef="nav-link"/>
+                                    </t>
+                                    <t t-call="portal.user_dropdown">
+                                        <t t-set="_icon" t-value="true"/>
+                                        <t t-set="_item_class" t-valuef="nav-item dropdown ml-3"/>
+                                        <t t-set="_link_class" t-valuef="nav-link"/>
+                                        <t t-set="_dropdown_menu_class" t-valuef="position-absolute dropdown-menu-right"/>
+                                    </t>
+                                    <t t-call="website_sale.header_cart_link">
+                                        <t t-set="_icon" t-value="True"/>
+                                        <t t-set="_item_class" t-value="'nav-item mx-lg-3'"/>
+                                        <t t-set="_link_class" t-value="'nav-link'"/>
+                                    </t>
+                                    <!-- Wishlist -->
+                                    <t t-call="website_sale_wishlist.header_wishlist_link">
+                                        <t t-set="_icon" t-value="True"/>
+                                        <t t-set="_item_class" t-value="'nav-item mr-lg-3'"/>
+                                        <t t-set="_link_class" t-value="'nav-link'"/>
+                                    </t>
+                                </div>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

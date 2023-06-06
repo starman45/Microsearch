@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="silder_with_banner_main" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="auto_parts_theme.silder_with_banner_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/homepage/9_copy.png"/>
+            </xpath>
+        </template>
+        <template id="silder_with_banner_s" name="Silder With Banner">
+           <!-- silder_with_banner -->
+            <section class="silder_and_banner_auto_parts_24" style="margin-bottom:50px;">
+               <div class="container">
+                  <div class="swiper banner_silder_auto_parts">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="">
+                              <div class="row">
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="desc_silder_and_banner">
+                                       <h4 style="color:#fff; font-family: 'Staatliches', cursive; letter-spacing: 1px; font-size:45px; margin-top:50px;">
+                                          Lorem ipsum dolor sit amet <br/>consectetur adipiscing elit
+                                       </h4>
+                                       <span style="color:#fff; margin-bottom: 20px; display:block; font-family: 'Staatliches', cursive; letter-spacing:1px; font-size:30px;">   
+                                          $555.00
+                                       </span>
+                                       <p style="color:#fff;">
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+                                       </p>
+                                    </div>
+                                    <div class="more_product_btn">
+                                       <a href="#" class="btn_acele btn_black">More Product</a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="img_holder_silder_banner_auto_parts">
+                                       <img src="/auto_parts_theme/static/src/img/banner_sld/banner_1.png" class="img-fluid"/>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="">
+                              <div class="row">
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="desc_silder_and_banner">
+                                       <h4 style="color:#fff; font-family: 'Staatliches', cursive; letter-spacing: 1px; font-size:45px; margin-top:50px;">
+                                          Lorem ipsum dolor sit amet <br/>consectetur adipiscing elit
+                                       </h4>
+                                       <span style="color:#fff; margin-bottom: 20px; display:block; font-family: 'Staatliches', cursive; letter-spacing:1px; font-size:30px;">   
+                                          $555.00
+                                       </span>
+                                       <p style="color:#fff;">
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+                                       </p>
+                                    </div>
+                                    <div class="more_product_btn">
+                                       <a href="#" class="btn_acele btn_black">More Product</a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="img_holder_silder_banner_auto_parts">
+                                       <img src="/auto_parts_theme/static/src/img/banner_sld/banner_2.png" class="img-fluid"/>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="">
+                              <div class="row">
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="desc_silder_and_banner">
+                                       <h4 style="color:#fff; font-family: 'Staatliches', cursive; letter-spacing: 1px; font-size:45px; margin-top:50px;">
+                                          Lorem ipsum dolor sit amet <br/>consectetur adipiscing elit
+                                       </h4>
+                                       <span style="color:#fff; margin-bottom: 20px; display:block; font-family: 'Staatliches', cursive; letter-spacing:1px; font-size:30px;">   
+                                          $555.00
+                                       </span>
+                                       <p style="color:#fff;">
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+                                       </p>
+                                    </div>
+                                    <div class="more_product_btn">
+                                       <a href="#" class="btn_acele btn_black">More Product</a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="img_holder_silder_banner_auto_parts">
+                                       <img src="/auto_parts_theme/static/src/img/banner_sld/banner_1.png" class="img-fluid"/>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="">
+                              <div class="row">
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="desc_silder_and_banner">
+                                       <h4 style="color:#fff; font-family: 'Staatliches', cursive; letter-spacing: 1px; font-size:45px; margin-top:50px;">
+                                          Lorem ipsum dolor sit amet <br/>consectetur adipiscing elit
+                                       </h4>
+                                       <span style="color:#fff; margin-bottom: 20px; display:block; font-family: 'Staatliches', cursive; letter-spacing:1px; font-size:30px;">   
+                                          $555.00
+                                       </span>
+                                       <p style="color:#fff;">
+                                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+                                       </p>
+                                    </div>
+                                    <div class="more_product_btn">
+                                       <a href="#" class="btn_acele btn_black">More Product</a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="img_holder_silder_banner_auto_parts">
+                                       <img src="/auto_parts_theme/static/src/img/banner_sld/banner_2.png" class="img-fluid"/>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </section>
+            <!-- end_silder_with_banner -->
+
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,75 @@
+.gem_3_box_2_auto_parts .comn_design_box_2_gem {
+	background: #000;
+	padding: 30px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+.gem_3_box_2_auto_parts .comn_design_box_2_gem:hover .bg-img_box_2{
+	opacity: 1;
+}
+.gem_3_box_2_auto_parts .bg-img_box_2 {
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.gem_3_box_2_auto_parts .bg-img_box_2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.480967) 24.42%, rgba(0, 0, 0, 0.581635) 35.06%, rgba(0, 0, 0, 0.653928) 41.56%, rgba(0, 0, 0, 0.719321) 50.91%, rgba(0, 0, 0, 0.787828) 58.96%, rgba(0, 0, 0, 0.859178) 67.79%, rgba(0, 0, 0, 0.92987) 76.62%, #000000 100%);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.gem_3_box_2_auto_parts .date_box_2_gem{
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+	text-align: center;
+	display: block;
+	margin-bottom:20px;
+}
+.gem_3_box_2_auto_parts .content_box_2_gem h4{
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom:20px;
+}
+.gem_3_box_2_auto_parts .content_box_2_gem p {
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+}
+.gem_3_box_2_auto_parts .btn_extra_box_2 {
+	padding:2px 20px;
+	background: none;
+	border:1px solid #fff;
+	border-radius: 50px;
+	display: inline-block;
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+.gem_3_box_2_auto_parts .btn_extra_box_2:hover{
+	background: red;
+	color: #fff;
+	text-decoration: none;
+	border-color: red;
+}

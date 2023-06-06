@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_5" inherit_id="website.layout" name="footer_5" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="footer_5_gem_auto_parts_thm">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-md-6 order-sm-2 order-md-2 order-lg-1">
+                                    <div class="compny_links_ft_5">
+                                        <h4>Use Full Link</h4>
+                                        <ul style="padding: 0px; list-style: none;">
+                                            <li>
+                                                <a href="#">Lorem ipsum</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 col-md-12 order-sm-1 order-md-1 order-lg-2" style="border-right:1px solid rgba(255,255,255,.1); border-left:1px solid rgba(255,255,255,.1);">
+                                    <div class="logo_and_detalis_foter_5_24">
+                                        <div class="logo_holder_ft_5_auto_thm" style="text-align:center;">
+                                            <img src="/auto_parts_theme/static/src/img/footer/logo.png" style="margin-bottom:15px;"/>
+                                            </div>
+                                            <p style="color: #fff; font-family: 'Staatliches', cursive; text-align:center;">
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                            </p>
+                                            <div class="social_media_ft_5" style="text-align:center;">
+                                                <a href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <i class="fa fa-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-md-6 order-sm-3 order-md-3 order-lg-3">
+                                        <div class="compny_links_ft_5">
+                                            <h4>Get In Touch</h4>
+                                            <ul style="padding: 0px; list-style: none;">
+                                                <li>
+                                                    309, City Center Arcade, Nr. ST Bus Station, Krishnanagar, Ahmedabad, Gujarat - 382345, India
+                                                </li>
+                                                <li>
+                                                    <a href="#"> +91 (800) (047) (3006)</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">contact@geminatecs.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </xpath>
+            </template>
+        </data>
+    </odoo>

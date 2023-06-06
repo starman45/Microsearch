@@ -1,0 +1,60 @@
+.gem_our_good_categories_boxes_2 .tittle_main_our_cat {
+	display: flex;
+	border-bottom: 1px solid #dee2e6;
+	margin-bottom: 15px;
+	margin:10px 0px;
+}
+.gem_our_good_categories_boxes_2 .tittle_main_our_cat h4{
+	font-family: 'Staatliches', cursive;
+	color: #000;
+	margin-right:20px;
+}
+.gem_our_good_categories_boxes_2 .tittle_main_our_cat p{
+	font-family: 'Staatliches', cursive;
+	color: #b8bdc1;
+	margin-top:2px;
+	font-size: 14px;
+}
+.gem_our_good_categories_boxes_2 .view_all_btn_custom {
+	font-family: 'Staatliches', cursive;
+	color: #000;
+	margin-left: auto;
+	margin-top: 2px;
+}
+.gem_our_good_categories_boxes_2 .detalis_cntr_image_gem_box_2{
+	position: absolute;
+	top:50px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+.gem_our_good_categories_boxes_2 .detalis_cntr_image_gem_box_2 h4{
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.gem_our_good_categories_boxes_2 .offer_box_box_2_our_cat {
+	background: #ef233c;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	border-radius: 50px;
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+}	
+.gem_our_good_categories_boxes_2 .image_holder_our_good_cat {
+	border: 1px solid #e9ecef;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	padding:25px;
+}
+.gem_our_good_categories_boxes_2 .desc_prodcuts_our_cat_2 h4{
+	font-family: 'Staatliches', cursive;
+	font-size: 15px;
+}
+.gem_our_good_categories_boxes_2 .review_area_good_cat i{
+	color: gold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}

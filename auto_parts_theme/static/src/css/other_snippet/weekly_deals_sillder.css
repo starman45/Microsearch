@@ -1,0 +1,44 @@
+.weekly_deals_sillder_gem {
+  background: linear-gradient(159deg, #ff002a 0%, #000000 90%);
+  background-position: center;
+  background-size: cover;
+  height:320px;
+  margin:20px 0px;  
+  padding: 20px 0px;
+}
+.weekly_deals_sillder_gem .tittle_latest_deals_for h4{
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-size: 35px;
+  color: #fff;
+}
+.weekly_deals_sillder_gem .view_all_btn_multi {
+  color: #000;
+  margin-left: auto;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius:10px;  
+}
+.weekly_deals_sillder_gem .main_bg_holder_d_d-24{
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.weekly_deals_sillder_gem .desc_wkly_deals_24 h4{
+  font-family: 'Staatliches', cursive;
+}
+.weekly_deals_sillder_gem .rating_wk_dly_sidler i{
+  color: gold;
+  font-size: 12px;
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:1500px){
+  .weekly_deals_sillder_gem_s .swiper-slide {
+    width: calc((96%) /3)!important;
+    margin-right:21px!important;
+  }
+}

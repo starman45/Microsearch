@@ -1,0 +1,45 @@
+.gem_upper_detalis_and_bottom_img_1 .comn_deisgn_gem_up_bt_box_gem {
+	background-color: #090909;
+	padding: 30px 25px 30px 25px;
+	border-radius: 5px;
+	margin: 20px 0px;
+}
+.gem_upper_detalis_and_bottom_img_1 .upper_area_up_bt_box_gem {
+	display: flex;
+	border-bottom: 1px solid #1b1b1b;
+	margin-bottom: 15px;
+}
+.gem_upper_detalis_and_bottom_img_1 .icon_design_gem_1 {
+	background-color: #ed1d26;
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 13px;
+	margin-right: 15px;
+}
+.gem_upper_detalis_and_bottom_img_1 .icon_design_gem_1 i{
+	color: #fff;
+	font-size: 30px;
+}
+.gem_upper_detalis_and_bottom_img_1 .desc_box_1_up_bt_box h4{
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.gem_upper_detalis_and_bottom_img_1 .desc_box_1_up_bt_box p {
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+}
+.gem_upper_detalis_and_bottom_img_1 .bottom_img_holder_gem img{
+	transition: 0.3s;
+}
+.gem_upper_detalis_and_bottom_img_1 .bottom_img_holder_gem img:hover {
+	transform: scale(0.9);
+	cursor: pointer;
+}

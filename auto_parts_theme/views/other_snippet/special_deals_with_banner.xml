@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="special_deals_banner_main" inherit_id="website.snippets">
+      <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="auto_parts_theme.special_deals_banner_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/others/special_deals_with_banner.png"/>
+      </xpath>
+    </template>
+    <template id="special_deals_banner_s" name="Specail Deals With Bannner">
+      <section class="specail_deals_2_with_bn_S">
+        <div class="container">
+          <div class="tittle_spe_deal_bn_s">
+            <h2>SPECIAL DEALS</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 order-sm-2 ordr-md-2 order-lg-1">
+              <div class="right_side_banner_spe_deals">
+                <img src="/auto_parts_theme/static/src/img/other_snippet/spe_deal_2/right_banner.jpg" class="img-fluid" style="border-radius:5px;"/>
+                </div>
+              </div>
+              <div class="col-lg-8 order-sm-1 ordr-md-1 order-lg-2">
+                <div class="swiper spe_deal_2_s">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="comn_design_spe_deals_bn_s" style="text-align:center;">
+                        <a href="#">
+                          <img src="/auto_parts_theme/static/src/img/other_snippet/spe_deal_2/1.jpg" class="img-fluid"/>
+                          <div class="content_spe_deals_s">
+                            <h4>Lorem ipsum dolor</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                            <div class="rating_spe_with_bn_s">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                            <span class="prize_spe_bn">$200</span>
+                            <a href="#" class="shopnow_spe_deals_2">shop Now</a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="comn_design_spe_deals_bn_s" style="text-align:center;">
+                        <img src="/auto_parts_theme/static/src/img/other_snippet/spe_deal_2/2.jpg" class="img-fluid"/>
+                        <div class="content_spe_deals_s">
+                          <h4>Lorem ipsum dolor</h4>
+                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                          <div class="rating_spe_with_bn_s">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <span class="prize_spe_bn">$200</span>
+                          <a href="#" class="shopnow_spe_deals_2">shop Now</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="comn_design_spe_deals_bn_s" style="text-align:center;">
+                        <img src="/auto_parts_theme/static/src/img/other_snippet/spe_deal_2/3.jpg" class="img-fluid"/>
+                        <div class="content_spe_deals_s">
+                          <h4>Lorem ipsum dolor</h4>
+                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                          <div class="rating_spe_with_bn_s">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <span class="prize_spe_bn">$200</span>
+                          <a href="#" class="shopnow_spe_deals_2">shop Now</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="comn_design_spe_deals_bn_s" style="text-align:center;">
+                        <img src="/auto_parts_theme/static/src/img/other_snippet/spe_deal_2/4.jpg" class="img-fluid"/>
+                        <div class="content_spe_deals_s">
+                          <h4>Lorem ipsum dolor</h4>
+                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                          <div class="rating_spe_with_bn_s">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <span class="prize_spe_bn">$200</span>
+                          <a href="#" class="shopnow_spe_deals_2">shop Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </template>
+    </data>
+  </odoo>

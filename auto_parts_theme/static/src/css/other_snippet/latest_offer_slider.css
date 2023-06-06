@@ -1,0 +1,37 @@
+.latest_offer_slider_auto_parts_theme_S{
+	background: url(https://autohive-html.themetags.com/assets/img/shapes/banner-bg.jpg);
+	height: 400px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	padding:20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 150px;
+}
+
+.latest_offer_slider_auto_parts_theme_S .tittle_latest_offer_theme h2{
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 45px;
+}
+.latest_offer_slider_auto_parts_theme_S .tittle_latest_offer_theme p{
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+
+.latest_offer_slider_auto_parts_theme_S .shopnow_latest_ofr_btn{
+	padding: 10px 30px;
+	background: #FC0012;
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.latest_offer_slider_auto_parts_theme_S .img_sliders_auto_parts_thme img{
+	border-radius:5px;
+	margin-top: 40px;
+}

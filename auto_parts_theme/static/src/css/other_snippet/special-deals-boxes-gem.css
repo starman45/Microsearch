@@ -1,0 +1,21 @@
+ .Special-deals-boxes-gem .upper_tittle_special_deals_box h4{
+  font-size: 45px;
+  font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches', cursive;
+  margin-bottom: 20px;
+ }
+ .Special-deals-boxes-gem .product_items_deals_box {
+  box-shadow: 0px 5px 2px -1px rgb(255 233 233);
+  background-color: #fff;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  border-end-start-radius: 4px;
+ }
+ .Special-deals-boxes-gem .desc_products_deals_box h5 {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+  font-size: 30px;
+  margin-left: 10px;
+ }

@@ -1,0 +1,74 @@
+.footer_3_gem_auto_parts_thm {
+    background-color: #212121;
+    padding: 20px;
+}
+.footer_3_gem_auto_parts_thm .contact_detalis_footer_3 a{
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    margin-right: 70px;
+}
+.footer_3_gem_auto_parts_thm .contact_detalis_footer_3 i{ 
+    color: #fff;
+    margin-right: 15px;
+    background-color: #000;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+.footer_3_gem_auto_parts_thm .btn_contactus {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer_3_gem_auto_parts_thm .tittle_h4_ft_3 {
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+.footer_3_gem_auto_parts_thm .link_box_footer_3_gem_auto_parts ul a {
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    line-height: 40px;
+    transition: 0.3s;
+}
+.footer_3_gem_auto_parts_thm .link_box_footer_3_gem_auto_parts ul a:hover{
+    color: red;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.footer_3_gem_auto_parts_thm .feedback_footer_3 i{
+    color: #fff;
+    font-size:40px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer_3_gem_auto_parts_thm .feedback_footer_3 p{
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    font-size:20px;
+    color: red;
+    display: block;
+    margin-bottom: 0px;
+}
+.footer_3_gem_auto_parts_thm .feedback_footer_3 span{
+    color: #fff;
+    display: block;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.footer_3_gem_auto_parts_thm .feedback_btn:hover{
+    color: red;
+    text-decoration: none;
+}
+.border_lft_footer_3 {
+    border-right: 1px solid #FFFFFF1A;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <odoo>
+      <data>
+        <template id="top_picks_main" inherit_id="website.snippets">
+          <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="auto_parts_theme.top_picks_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/homepage/6_copy.png"/>
+          </xpath>
+        </template>
+        <template id="top_picks_s" name="Top Picks">
+          <!-- top_picks -->
+          <div class="auto_services_tittle_block auto_services_tittle_block_top_picks">
+            <strong style="margin-bottom: 20px;">
+              Top Picks
+            </strong>
+          </div>
+
+          <section class="top_picks_auto_24_parts" style="padding-top:30px;">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6" style="padding:0px;">
+                  <h2 style="margin-left: -12%; font-family: 'Staatliches', cursive; margin-top:50px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing <br/> elit, sed do eiusmod tempor incididunt ut <br/> labore et dolore magna aliqua. 
+                  </h2>
+                  <div class="more_product_btn" style="margin-left:-12%; margin-top: 20px;">
+                    <a href="#" class="btn_acele btn_black">More Product</a>
+                  </div>
+                  <div class="image_holder_car_top_picks_auto_parts" style="position:relative;">
+                    <img src="/auto_parts_theme/static/src/img/top_picks/right_car.png" class="img-fluid" style="margin-left:-15%;"/>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="swiper swiper_gem_drk_top_picks">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom:20px;">
+                            <a href="#">
+                              <div class="top_picks_box_deisgn_auto_parts_24" style="text-align:center;">
+                                <img src="/auto_parts_theme/static/src/img/top_picks/chassis.png" style="width:50px; height:50px;"/>
+                                <h4 style="width: 100%;">Lorem ipsum</h4>
+                                <p>Volutpat sodales, mauris erat rutrum deserunt sed pharetra mollis, nunc leo eu maecenas nascetur duis viverra nam vitae</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom:20px;">
+                            <a href="#">
+                              <div class="top_picks_box_deisgn_auto_parts_24" style="text-align:center;">
+                                <img src="/auto_parts_theme/static/src/img/top_picks/disc-brake.png" style="width:50px; height:50px;"/>
+                                <h4 style="width: 100%;">Lorem ipsum</h4>
+                                <p>Volutpat sodales, mauris erat rutrum deserunt sed pharetra mollis, nunc leo eu maecenas nascetur duis viverra nam vitae</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom:20px;">
+                            <a href="#">
+                              <div class="top_picks_box_deisgn_auto_parts_24" style="text-align:center;">
+                                <img src="/auto_parts_theme/static/src/img/top_picks/battery.png" style="width:50px; height:50px;"/>
+                                <h4 style="width: 100%;">Lorem ipsum</h4>
+                                <p>Volutpat sodales, mauris erat rutrum deserunt sed pharetra mollis, nunc leo eu maecenas nascetur duis viverra nam vitae</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom:20px;">
+                            <a href="#">
+                              <div class="top_picks_box_deisgn_auto_parts_24" style="text-align:center;">
+                                <img src="/auto_parts_theme/static/src/img/top_picks/car-parts.png" style="width:50px; height:50px;"/>
+                                <h4 style="width: 100%;">Lorem ipsum</h4>
+                                <p>Volutpat sodales, mauris erat rutrum deserunt sed pharetra mollis, nunc leo eu maecenas nascetur duis viverra nam vitae</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- end_top_picks -->
+
+        </template>
+      </data>
+    </odoo>

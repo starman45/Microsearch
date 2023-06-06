@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data>
+      <template id="box_4_main" inherit_id="website.snippets">
+         <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="auto_parts_theme.box_4_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/box_3/4_copy.png"/>
+         </xpath>
+      </template>
+      <template id="box_4_s" name="box 4">
+         <section class="gem_3_box_4_auto_parts">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="pix-ibox-flip pix-text-review-left pix-icon-l">
+                        <div class="pix-icon-box-flip flip">
+                           <div class="service-box-3">
+                              <div class="service-box-3__container pix-icon-l">
+                                 <i class="fa fa-bolt"></i>
+                                 <div class="pix-item-title pix-title-l">Discounts On Maintenance Parts</div>
+                              </div>
+                              <img src="/auto_parts_theme/static/src/img/box_3/box_4/1.png" class="img-fluid"/>
+                              </div>
+                              <div class="service-box-3 under">
+                                 <div class="service-box-3__container two">
+                                    <div class="pix-item-title pix-title-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                                 </div>
+                                 <img src="/auto_parts_theme/static/src/img/box_3/box_4/1.png"/>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4">
+                           <div class="pix-ibox-flip pix-text-review-left pix-icon-l">
+                              <div class="pix-icon-box-flip flip">
+                                 <div class="service-box-3">
+                                    <div class="service-box-3__container pix-icon-l">
+                                       <i class="fa fa-bolt"></i>
+                                       <div class="pix-item-title pix-title-l">Discounts On Maintenance Parts</div>
+                                    </div>
+                                    <img src="/auto_parts_theme/static/src/img/box_3/box_4/2.png" class="img-fluid"/>
+                                    </div>
+                                    <div class="service-box-3 under">
+                                       <div class="service-box-3__container two">
+                                          <div class="pix-item-title pix-title-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                                       </div>
+                                       <img src="/auto_parts_theme/static/src/img/box_3/box_4/2.png"/>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4">
+                                 <div class="pix-ibox-flip pix-text-review-left pix-icon-l">
+                                    <div class="pix-icon-box-flip flip">
+                                       <div class="service-box-3">
+                                          <div class="service-box-3__container pix-icon-l">
+                                             <i class="fa fa-bolt"></i>
+                                             <div class="pix-item-title pix-title-l">Discounts On Maintenance Parts</div>
+                                          </div>
+                                          <img src="/auto_parts_theme/static/src/img/box_3/box_4/3.png" class="img-fluid"/>
+                                          </div>
+                                          <div class="service-box-3 under">
+                                             <div class="service-box-3__container two">
+                                                <div class="pix-item-title pix-title-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                                             </div>
+                                             <img src="/auto_parts_theme/static/src/img/box_3/box_4/3.png"/>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>                                   
+                        </template>
+                     </data>
+                  </odoo>

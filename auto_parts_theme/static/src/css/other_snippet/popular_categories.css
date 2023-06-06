@@ -1,0 +1,58 @@
+.popular_categories_auto_parts_theme_s .tittle_popular_cat_auto_parts h2{
+	font-family: 'Staatliches', cursive;
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 700;
+	margin:20px 0px;
+}
+.popular_categories_auto_parts_theme_s .nav-pills .nav-link{
+	margin-bottom: 50px;
+	justify-content: centre;
+	font-family: 'Staatliches', cursive;
+	color: #000;
+	border: 1px solid;
+	margin-right: 15px;
+	padding:5px 30px;
+}
+.popular_categories_auto_parts_theme_s .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background: red;
+	color: #fff;
+}
+.popular_categories_auto_parts_theme_s .content_right_side_img_popular_cat {
+	position: absolute;
+	bottom:60px;
+	left: 20px;
+}
+
+.popular_categories_auto_parts_theme_s .content_pop_2_cat{
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+.popular_categories_auto_parts_theme_s .content_pop_2_cat h4{
+	font-family: 'Staatliches', cursive;
+	color: #000;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.tabs_image_holder_pop_24_comn {
+	margin-bottom:60px;
+}
+.popular_categories_auto_parts_theme_s .content_right_side_img_popular_cat h2{
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	word-break: break-all;
+	font-size: 45px;
+	margin-bottom:30px;
+}
+.popular_categories_auto_parts_theme_s .popular_cat_shopnow_btn {
+	padding: 10px 20px;
+	background: red;
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
