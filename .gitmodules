@@ -1,3 +1,6 @@
 [submodule "Prueba/test"]
 	path = Prueba/test
 	url = git@github.com:OCA/field-service.git
+[submodule "Prueba/field-service"]
+	path = Prueba/field-service
+	url = git@github.com:OCA/field-service.git
