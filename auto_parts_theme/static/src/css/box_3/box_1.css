@@ -1,0 +1,89 @@
+.gem_3_box_1_auto_parts .top-section_gem_box_1{
+	padding: 40px 70px;
+	position: relative;
+	background-size: cover;
+}
+.gem_3_box_1_auto_parts .top-section_gem_box_1:before{
+	content: "";
+	position: absolute;
+	background-image: url(/auto_parts_theme/static/src/img/box_3/box_1/d-3.png/right-cr.png);
+	width: 153px;
+	height: 178px;
+	background-size: auto;
+	top: 0;
+	right: 0;
+	z-index: 9;
+}
+.gem_3_box_1_auto_parts .top-section_gem_box_1:after{
+	content: "";
+	position: absolute;
+	background-image: url(/auto_parts_theme/static/src/img/box_3/box_1/d-3.png/left-cr.png);
+	width: 176px;
+	height: 196px;
+	background-size: auto;
+	bottom: 0;
+	left: 0;
+	z-index: 9;
+}
+.gem_3_box_1_auto_parts .d-content_gem_box_1 {
+	position: relative;
+	z-index: 34;
+}
+.gem_3_box_1_auto_parts .d-content_gem_box_1 h1{
+	font-size: 96px;
+	color: #fff;
+	position: relative;
+	font-weight: 500;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	font-family: 'Staatliches', cursive;
+}
+.gem_3_box_1_auto_parts .d-content_gem_box_1 h1:before{
+	content: "";
+	position: absolute;
+	width: 54px;
+	height: 4px;
+	background: #e81c2e;
+	bottom: 0;
+	left: 4px;
+}
+.gem_3_box_1_auto_parts .d-content_gem_box_1 h4{
+	font-size: 25px;
+	color: #fff;
+	position: relative;
+	font-weight: 400;
+	margin-bottom: 17px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+}
+.gem_3_box_1_auto_parts .d-content_gem_box_1 p{
+	font-size: 15px;
+	color: #ffff;
+	position: relative;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+}
+.gem_3_box_1_auto_parts .d-content_gem_box_1 .read_more_box_1{
+	background: #e81c2e;
+	color: #fff;
+	letter-spacing: .5px;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 12px 22px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.gem_3_box_1_auto_parts .ful-section_gem_box_1 .col-lg-4:before {
+	content: "";
+	position: absolute;
+	background: rgb(0 0 0/82%);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}

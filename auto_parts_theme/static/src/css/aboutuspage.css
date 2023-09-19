@@ -1,0 +1,194 @@
+
+.main_banner_about_us_page_auto_parts_24{
+	background: url(../img/aboutus/main_banner.png);
+	background-position: center;
+    background-size: cover;
+    padding: 10px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+.main_banner_about_us_page_auto_parts_24 h4 {
+	font-size:85px;
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	letter-spacing:1px;
+}
+
+.banner_and_desc_tabs_auto_parts_25 .desc_and_detalis_all_auto_parts_24 h4 {
+	font-family: 'Staatliches', cursive;
+	letter-spacing:1px;
+	color: #000;
+	font-size:30px;
+	margin-bottom: 20px;
+}
+
+.banner_and_desc_tabs_auto_parts_25 .desc_and_detalis_all_auto_parts_24 p{
+	color: #000;
+}
+
+.box_design_fn_auto_parts_24_detalis {
+    border-radius: 5px;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+ 	background: #fff;
+ 	border-radius: 5px;
+ 	box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+}
+.box_inner_detalis_auto_parts_24 a{
+	display: flex;
+	color: #000;
+}
+.box_inner_detalis_auto_parts_24 .info_auto_parts_24 h4 {
+	font-family: 'Staatliches', cursive;
+	color: #000;
+	letter-spacing: 1px;
+}
+.box_inner_detalis_auto_parts_24 .info_auto_parts_24 p {
+	color: #000;
+	font-size: 15px;
+}
+.progress_and_desc_auto_parts_24 .desc_detalis_auto_parts_24 h4{
+	font-family: 'Staatliches', cursive;
+	color: #000;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+
+.main_progress_bar_auto_parts span {
+	font-family: 'Staatliches', cursive;
+	margin-bottom: 10px;
+	display: block;
+}
+
+/*tittle*/
+
+.auto_services_tittle_block {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.auto_services_tittle_block strong {
+	position: relative;
+	display: inline-block;
+	padding-right: 48px;
+	padding-left: 48px;
+	font-size:32px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	margin-bottom:50px;
+	color: #000;
+}
+.auto_services_tittle_block strong:before{
+	content: "";
+	display: block;
+	width: 29px;
+	height: 20px;
+	background: url(../img/others/icon-images.png) no-repeat -7px -100px;
+	position: absolute;
+	left: 0;
+	top: 14px;
+}
+.auto_services_tittle_block strong:after{
+	content: "";
+	display: block;
+	width: 29px;
+	height: 20px;
+	background: url(../img/others/icon-images.png) no-repeat -63px -100px;
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+
+/*end_tittle*/
+
+.info_btns_staff_auto_parts_about {
+	position: absolute;
+	top:0px;
+	right:10px;
+	overflow: hidden;
+}
+
+.info_btns_staff_auto_parts_about .a{
+	background: #fff;
+	display: block;
+	margin-bottom: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	margin-top: 10px;
+	text-align: center;
+	color: #000;
+	font-size:20px;
+	padding-top:5px;
+}
+
+.btn_acele {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	padding: 15px 50px;
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px; 
+	border-radius: 5px;
+}
+.btn_acele::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+	border-radius: 5px;
+
+}
+.btn_acele:hover::after, 
+.btn_acele:active::after {
+    width: 100%; 
+}
+.btn_black {
+    background: #c30c0c;
+    color: #fff; 
+}
+.btn_black::after {
+    background: #000;
+}
+.btn_black:visited {
+    color: #fff; 
+}
+.btn_black:hover {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.search_parts_auto_parts_247_aboutus .box_inner_design_auto_parts_247{
+	background-color: #fff;
+    padding: 40px 35px 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+}
+.search_parts_auto_parts_247_aboutus .find_srv_title_24_form_gem_auto_parts h2{
+	font-size: 50px;
+    letter-spacing: 1px;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 20px;
+}
+.search_parts_auto_parts_247_aboutus .form-control_custom_fdf{
+	border-color: #fbf8f8;
+    height: 58px;
+    border-width: 2px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

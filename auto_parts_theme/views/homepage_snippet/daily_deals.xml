@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="daily_deals_main" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="auto_parts_theme.daily_deals_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/homepage/4.png"/>
+            </xpath>
+        </template>
+        <template id="daily_deals_s" name="Daily Deals">
+           <section class="daily_deals_auto_parts" style="margin-bottom:60px;">
+               <div class="row no-gutters">
+                  <div class="col-lg-6 col-md-6">
+                     <div class="left_side_image_holder_dd_auto_parts" data-aos="fade-right" data-aos-duration="2000">
+                        <img src="/auto_parts_theme/static/src/img/daily_deals/car.png"/>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                     <div class="auto_services_tittle_block">
+                        <strong style="margin-bottom:0px; margin-top:20px;">
+                           Daily Deals
+                        </strong>
+                     </div>
+                  <div class="more_product_btn" style="text-align: center; margin-top:30px;">
+                    <a href="#" class="btn_acele btn_black">More Product</a>
+                  </div>
+                     <div class="" style="background:url(/auto_parts_theme/static/src/img/daily_deals/right_car.png); height:600px; margin-left: -170px; margin-top:20px; padding: 20px;" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="container">
+                           <div class="swiper daily_deals_auto_parts">
+                              <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                    <a href="#">
+                                       <div class="daily_deals_box_design_swiper_silder_auto_parts">
+                                          <img src="/auto_parts_theme/static/src/img/daily_deals/dd_1.png" class="img-fluid" style="width:220px; height:220px;"/>
+                                          <h4>Lorem ipsum dolor</h4>
+                                          <div class="rating_star_features_pro_auto_pts" style="display:block; margin-bottom: 10px; color: #c30c0c;">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="price_feature_auto_parts_24">
+                                             <span style="color: #000; font-weight: bold; text-decoration: line-through; margin-right:5px;">
+                                                $100
+                                             </span>
+                                             <span style="text-decoration:none; font-weight: bold; color:#c30c0c;">
+                                                $150
+                                             </span>
+                                          </div>
+                                          <div class="qucick_view_btn_auto_parts">
+                                             <a href="#" class="a_quick_view">
+                                                <i class="fa fa-eye"></i>
+                                             </a>
+                                          </div>
+                                          <div class="Add_to_cart_btn" style="margin-top:15px;">
+                                             <a href="#" class="btn_acele btn_black" style="padding:8px 50px;">
+                                                <i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <a href="#">
+                                       <div class="daily_deals_box_design_swiper_silder_auto_parts">
+                                          <img src="/auto_parts_theme/static/src/img/daily_deals/dd_2.png" class="img-fluid" style="width:220px; height:220px;"/>
+                                          <h4>Lorem ipsum dolor</h4>
+                                          <div class="rating_star_features_pro_auto_pts" style="display:block; margin-bottom: 10px; color: #c30c0c;">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="price_feature_auto_parts_24">
+                                             <span style="color: #000; font-weight: bold; text-decoration: line-through; margin-right:5px;">
+                                                $100
+                                             </span>
+                                             <span style="text-decoration:none; font-weight: bold; color:#c30c0c;">
+                                                $150
+                                             </span>
+                                          </div>
+                                          <div class="qucick_view_btn_auto_parts">
+                                             <a href="#" class="a_quick_view">
+                                                <i class="fa fa-eye"></i>
+                                             </a>
+                                          </div>
+                                          <div class="Add_to_cart_btn" style="margin-top:15px;">
+                                             <a href="#" class="btn_acele btn_black" style="padding:8px 50px;">
+                                                <i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <a href="#">
+                                       <div class="daily_deals_box_design_swiper_silder_auto_parts">
+                                          <img src="/auto_parts_theme/static/src/img/daily_deals/dd_3.png" class="img-fluid" style="width:220px; height:220px;"/>
+                                          <h4>Lorem ipsum dolor</h4>
+                                          <div class="rating_star_features_pro_auto_pts" style="display:block; margin-bottom: 10px; color: #c30c0c;">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="price_feature_auto_parts_24">
+                                             <span style="color: #000; font-weight: bold; text-decoration: line-through; margin-right:5px;">
+                                                $100
+                                             </span>
+                                             <span style="text-decoration:none; font-weight: bold; color:#c30c0c;">
+                                                $150
+                                             </span>
+                                          </div>
+                                          <div class="qucick_view_btn_auto_parts">
+                                             <a href="#" class="a_quick_view">
+                                                <i class="fa fa-eye"></i>
+                                             </a>
+                                          </div>
+                                          <div class="Add_to_cart_btn" style="margin-top:15px;">
+                                             <a href="#" class="btn_acele btn_black" style="padding:8px 50px;">
+                                                <i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <a href="#">
+                                       <div class="daily_deals_box_design_swiper_silder_auto_parts">
+                                          <img src="/auto_parts_theme/static/src/img/daily_deals/dd_4.png" class="img-fluid" style="width:220px; height:220px;"/>
+                                          <h4>Lorem ipsum dolor</h4>
+                                          <div class="rating_star_features_pro_auto_pts" style="display:block; margin-bottom: 10px; color: #c30c0c;">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="price_feature_auto_parts_24">
+                                             <span style="color: #000; font-weight: bold; text-decoration: line-through; margin-right:5px;">
+                                                $100
+                                             </span>
+                                             <span style="text-decoration:none; font-weight: bold; color:#c30c0c;">
+                                                $150
+                                             </span>
+                                          </div>
+                                          <div class="qucick_view_btn_auto_parts">
+                                             <a href="#" class="a_quick_view">
+                                                <i class="fa fa-eye"></i>
+                                             </a>
+                                          </div>
+                                          <div class="Add_to_cart_btn" style="margin-top:15px;">
+                                             <a href="#" class="btn_acele btn_black" style="padding:8px 50px;">
+                                                <i class="fa fa-shopping-bag" style="margin-right:7px;"></i>Add TO Cart
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-pagination"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--end_daily_deals -->
+        </template>
+    </data>
+</odoo>

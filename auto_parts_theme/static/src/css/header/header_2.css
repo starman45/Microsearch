@@ -1,0 +1,197 @@
+
+a:hover {
+  text-decoration: none;
+}
+
+.gem_auto_parts_theme_header_2 nav {
+  position:relative;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-family: 'Staatliches', cursive;
+  height: 100px;
+  background-color: #1a1a1a;
+  padding: 0 2%;
+  letter-spacing:2px;
+}
+.gem_auto_parts_theme_header_2 nav .logo { 
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+}
+.gem_auto_parts_theme_header_2 nav .links {
+  float: right;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.gem_auto_parts_theme_header_2 nav .links li {
+  list-style: none;
+}
+.gem_auto_parts_theme_header_2 nav .links a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+.gem_auto_parts_theme_header_2 nav .links a:hover {
+  color: white;
+}
+.gem_auto_parts_theme_header_2 nav .links a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+.gem_auto_parts_theme_header_2 nav .links a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  color: white;
+}
+.gem_auto_parts_theme_header_2 #nav-toggle {
+  position: absolute;
+  top: -100px;
+  display: none;
+}
+.gem_auto_parts_theme_header_2 nav .icon-burger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.gem_auto_parts_theme_header_2 nav .icon-burger .line {
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 3px;
+  transition: all .5s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .gem_auto_parts_theme_header_2 nav .logo {
+    float: none;
+    width: auto;
+    justify-content: center;
+  }
+
+  .gem_auto_parts_theme_header_2 .upper_detalis_section{
+    height: auto!important;
+    display: block!important;
+    padding: 15px 0px 34px 0px!important;
+  }
+
+  .gem_auto_parts_theme_header_2 .upper_detalis_section ul,.gem_auto_parts_theme_header_2 .followus_gem{
+    float: unset!important;
+    justify-content: center;
+  }
+  .gem_auto_parts_theme_header_2 nav .links {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 251px;
+    bottom: 100%;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, .8);
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+  }
+  .gem_auto_parts_theme_header_2 nav .links a {
+    font-size: 20px;
+  }
+  .gem_auto_parts_theme_header_2 nav :checked ~ .links {
+    bottom: 0;
+  }
+  .gem_auto_parts_theme_header_2 nav .icon-burger {
+    display: block;
+  }
+  .gem_auto_parts_theme_header_2 nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  .gem_auto_parts_theme_header_2 nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  .gem_auto_parts_theme_header_2 nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+}
+.gem_auto_parts_theme_header_2 .upper_detalis_section {
+  background-color: #000;
+  padding: 5px;
+  height: 35px;
+  display: flex;
+}
+.gem_auto_parts_theme_header_2 .upper_detalis_section li{
+  margin-left:15px;
+}
+.gem_auto_parts_theme_header_2 .upper_detalis_section li span {
+  color: #999;
+  font-size: 12px;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+}
+.gem_auto_parts_theme_header_2 .followus_gem span{
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Staatliches', cursive;
+  margin-top:2px;
+}
+.gem_auto_parts_theme_header_2 .social_media i{
+  color: #fff;
+  margin-right: 15px;
+}
+.gem_auto_parts_theme_header_2 .logo img{
+  position: absolute;
+  top: 25px;
+  left: 10px;
+}
+.gem_auto_parts_theme_header_2 .logo_a:before{
+  position: absolute;
+  background-color: #ae0000;
+  content: '';
+  width: 400px;
+  height: 100%;
+  transform: skew(-35deg);
+  z-index: 0;
+  top: -35px;
+  left:-100px;
+  height: 135px;
+}
+
+.gem_auto_parts_theme_header_2 .other_btn_hd_5_icon li{
+  background-color: #ae0000;
+  border-radius: 5px;
+}
+
+.gem_auto_parts_theme_header_2 .dropdown-item{
+  color: #000!important;
+}
+
+@media(min-width:280px) and (max-width:1299px){
+  .gem_auto_parts_theme_header_2 .logo_a:before {
+    display: none;
+  }
+}

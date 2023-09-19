@@ -1,0 +1,81 @@
+.footer_6_gem_auto_parts_thm {
+    background-color: #1a1a1a;
+    padding: 50px 0px;
+}
+.footer_6_gem_auto_parts_thm .company_desc_ft_6{
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.footer_6_gem_auto_parts_thm .links_compnay h5{
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer_6_gem_auto_parts_thm .links_compnay li a {
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 40px;
+    transition: 0.3s;
+}
+.footer_6_gem_auto_parts_thm .links_compnay li a:hover {
+    color: red;
+    text-decoration: none;
+}
+.footer_6_gem_auto_parts_thm .links_compnay span{
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    display: block;
+}
+.footer_6_gem_auto_parts_thm .social_media_gem i{
+    color: #fff;
+    margin-right: 20px;
+}
+.newsletter_footer_6 {
+    background-image: url(https://images.unsplash.com/photo-1572997457609-cda718c2ce05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1568&q=80);
+    height: 400px;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+.newsletter_footer_6 h4{
+    font-family: 'Staatliches', cursive;
+    margin-left: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+.newsletter_footer_6 .custom_ft_6-input {
+    border: none;
+    font: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 8px 20px;
+    height: auto;
+    color: gray;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #ddd inset;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    margin: 0;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+.newsletter_footer_6 .subcribe_btn_ft_6 {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #c90000;
+    padding: 11px 30px;
+    color: #fff!important;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+}

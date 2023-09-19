@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="popular_categories_main" inherit_id="website.snippets">
+      <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="auto_parts_theme.popular_categories_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/others/popular_categories.png"/>
+      </xpath>
+    </template>
+    <template id="popular_categories_s" name="Popular Categories">
+      <section class="popular_categories_auto_parts_theme_s popular_categories_slider_1"> 
+        <div class="container">
+          <div class="tittle_popular_cat_auto_parts">
+            <h2>Popular Categories</h2>
+          </div>
+          <ul class="nav nav-pills" role="tablist" style="justify-content: center;">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#home_pro">Lorem ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu1_pro">Lorem ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu2_pro">Lorem ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu3_pro">Lorem ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu4_pro">Lorem ipsum</a>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="col-lg-4 order-sm-2 order-ms-2 order-lg-1">
+              <div class="right_side_img_holder_24" style="position:relative;">
+                <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/right_side_1.jpg" class="img-fluid" style="border-radius:5px;"/>
+                  <div class="content_right_side_img_popular_cat">
+                    <h2>Sed ut perspiciatis unde </h2>
+                    <a href="#" class="popular_cat_shopnow_btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 order-sm-1 order-ms-1 order-lg-2">
+                <div class="tab-content add_popular_categoris_slider">
+                  <div id="home_pro" class="container tab-pane active"><br/>
+                    <div class="row">
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/1.jpg" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/2.jpg" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/3.jpg" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/4.jpg" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/5.jpg" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/6.png" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/7.png" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-4 col-md-3 col-4">
+                        <div class="tabs_image_holder_pop_24_comn" style="position:relative;">
+                          <a href="#">
+                            <img src="/auto_parts_theme/static/src/img/other_snippet/pop_2/8.jpg" class="img-fluid"/>
+                            <div class="content_pop_2_cat">
+                              <h4>Lorem ipsum</h4>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </template>
+    </data>
+  </odoo>

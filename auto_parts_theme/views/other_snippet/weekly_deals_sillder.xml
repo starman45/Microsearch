@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="weekly_deals_main" inherit_id="website.snippets">
+			<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+				<t t-snippet="auto_parts_theme.weekly_deals_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/others/weekly_deals_sillder.png"/>
+			</xpath>
+		</template>
+		<template id="weekly_deals_s" name="Weekly Deals">
+			<section class="weekly_deals_sillder_gem">
+				<div class="container">
+					<div class="tittle_latest_deals_for" style="display:flex; align-items:center; margin-bottom:40px; position:relative;">
+						<h4>WEEKLY DEALS</h4>
+						<a href="#" class="view_all_btn_multi">View All</a>
+					</div>
+					<div class="product_silder_fea_gem" style="padding:0px 10px;">
+						<div class="swiper weekly_deals_sillder_gem_s">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="main_bg_holder_d_d-24">
+										<div class="row">
+											<div class="col-lg-6">
+												<div class="img_wk_deals_holder">
+													<img src="/auto_parts_theme/static/src/img/other_snippet/wk_deals_s/1.jpg" class="img-fluid" style="border-radius:5px;" />
+													</div>
+												</div>
+												<div class="col-lg-6">
+													<div class="desc_wkly_deals_24">
+														<h4>Lorem ipsum dolor</h4>
+														<div class="rating_wk_dly_sidler">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<span style="color: red; font-family: 'Staatliches', cursive; font-size:18px;">$200</span>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="main_bg_holder_d_d-24">
+											<div class="row">
+												<div class="col-lg-6">
+													<div class="img_wk_deals_holder">
+														<img src="/auto_parts_theme/static/src/img/other_snippet/wk_deals_s/2.jpg" class="img-fluid" style="border-radius:5px;" />
+														</div>
+													</div>
+													<div class="col-lg-6">
+														<div class="desc_wkly_deals_24">
+															<h4>Lorem ipsum dolor</h4>
+															<div class="rating_wk_dly_sidler">
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+															</div>
+															<span style="color: red; font-family: 'Staatliches', cursive; font-size:18px;">$200</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="main_bg_holder_d_d-24">
+												<div class="row">
+													<div class="col-lg-6">
+														<div class="img_wk_deals_holder">
+															<img src="/auto_parts_theme/static/src/img/other_snippet/wk_deals_s/3.jpg" class="img-fluid" style="border-radius:5px;" />
+															</div>
+														</div>
+														<div class="col-lg-6">
+															<div class="desc_wkly_deals_24">
+																<h4>Lorem ipsum dolor</h4>
+																<div class="rating_wk_dly_sidler">
+																	<i class="fa fa-star"></i>
+																	<i class="fa fa-star"></i>
+																	<i class="fa fa-star"></i>
+																	<i class="fa fa-star"></i>
+																	<i class="fa fa-star"></i>
+																</div>
+																<span style="color: red; font-family: 'Staatliches', cursive; font-size:18px;">$200</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="main_bg_holder_d_d-24">
+													<div class="row">
+														<div class="col-lg-6">
+															<div class="img_wk_deals_holder">
+																<img src="/auto_parts_theme/static/src/img/other_snippet/wk_deals_s/3.jpg" class="img-fluid" style="border-radius:5px;" />
+																</div>
+															</div>
+															<div class="col-lg-6">
+																<div class="desc_wkly_deals_24">
+																	<h4>Lorem ipsum dolor</h4>
+																	<div class="rating_wk_dly_sidler">
+																		<i class="fa fa-star"></i>
+																		<i class="fa fa-star"></i>
+																		<i class="fa fa-star"></i>
+																		<i class="fa fa-star"></i>
+																		<i class="fa fa-star"></i>
+																	</div>
+																	<span style="color: red; font-family: 'Staatliches', cursive; font-size:18px;">$200</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</template>
+					</data>
+				</odoo>

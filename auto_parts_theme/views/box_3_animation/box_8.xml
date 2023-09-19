@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data>
+      <template id="box_8_main" inherit_id="website.snippets">
+         <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="auto_parts_theme.box_8_s" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/others/3_box_1.png"/>
+         </xpath>
+      </template>
+      <template id="box_8_s" name="box 8">
+         <section class="gem_upper_detalis_and_bottom_img_1">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                     <div class="comn_deisgn_gem_up_bt_box_gem">
+                        <div class="upper_area_up_bt_box_gem">
+                           <div class="icon_holder_upper_gem">
+                              <span class="icon_design_gem_1">
+                                 <i class="fa fa-usd"></i>
+                              </span>
+                           </div>
+                           <div class="desc_box_1_up_bt_box">
+                              <h4>Lorem ipsum dolor</h4>
+                              <p>Lorem ipsum dolor sit amet</p>
+                           </div>
+                        </div>
+                        <div class="bottom_img_holder_gem">
+                           <img src="https://img.freepik.com/free-photo/female-mechanic-holding-spare-parts-car_1170-1614.jpg?w=826&amp;t=st=1675313521~exp=1675314121~hmac=d754197d36a1a3337bc675095bfabc06222df8b40b11c8f656fc501a325c1dfe" class="img-fluid" style="border-radius:5px;"/>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="comn_deisgn_gem_up_bt_box_gem">
+                           <div class="upper_area_up_bt_box_gem">
+                              <div class="icon_holder_upper_gem">
+                                 <span class="icon_design_gem_1">
+                                    <i class="fa fa-thumbs-up"></i>
+                                 </span>
+                              </div>
+                              <div class="desc_box_1_up_bt_box">
+                                 <h4>Lorem ipsum dolor</h4>
+                                 <p>Lorem ipsum dolor sit amet</p>
+                              </div>
+                           </div>
+                           <div class="bottom_img_holder_gem">
+                              <img src="https://img.freepik.com/free-photo/different-car-accessories-assortment_23-2149030429.jpg?w=826&amp;t=st=1675313699~exp=1675314299~hmac=9e95a7054898229669a629ed98fe5f734ef9ecafa816921240128da0bacb4449" class="img-fluid" style="border-radius:5px;"/>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                           <div class="comn_deisgn_gem_up_bt_box_gem">
+                              <div class="upper_area_up_bt_box_gem">
+                                 <div class="icon_holder_upper_gem">
+                                    <span class="icon_design_gem_1">
+                                       <i class="fa fa-certificate"></i>
+                                    </span>
+                                 </div>
+                                 <div class="desc_box_1_up_bt_box">
+                                    <h4>Lorem ipsum dolor</h4>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                 </div>
+                              </div>
+                              <div class="bottom_img_holder_gem">
+                                 <img src="https://img.freepik.com/free-photo/different-car-accessories-composition_23-2149030385.jpg?w=826&amp;t=st=1675313720~exp=1675314320~hmac=b6be421de179e041d8f213f18b86288ceed42e0ade800e68d158b9a47368f103" class="img-fluid" style="border-radius:5px;"/>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+               </template>
+            </data>
+         </odoo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data>
+      <template id="hm_slider_1_main" inherit_id="website.snippets">
+         <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="auto_parts_theme.hm_slider_1" t-thumbnail="/auto_parts_theme/static/src/img/snippet_images/main_slider/1.png"/>
+         </xpath>
+      </template>
+      <template id="hm_slider_1" name="Home Page Slider 1">
+         <section class="main_sidler_1_gem_auto_parts_theme">
+            <div class="image_holder_design_main_sidler_1">
+               <img src="http://carbonick.wgl-demo.net/wp-content/uploads/2020/03/home-1_slider-1_1.jpg" class="img-fluid" style="height: 100%; width:400px;"/>
+               </div>
+               <div class="left_side_content">
+                  <span class="span_1_tittle">Sed ut perspiciatis unde</span>
+                  <h4>Lorem ipsum dolor sit amet<br/>consectetur adipiscing elit<br/>sed do eiusmod tempor incididunt</h4>
+                  <a href="#" class="contact_us_btn_main_sidler">Contact Us</a>
+               </div>
+               <div class="right-side_content">
+                  <div class="call_us_detais_main_silder">
+                     <h4>Call Us:</h4>
+                     <p> +91 8000473006</p>
+                  </div>
+                  <div class="call_us_detais_main_silder">
+                     <h4>Email</h4>
+                     <p>contact@geminatecs.com</p>
+                  </div>
+               </div>
+            </section>
+         </template>
+      </data>
+   </odoo>

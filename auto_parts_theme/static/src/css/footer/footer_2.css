@@ -1,0 +1,73 @@
+.footer_2_gem_auto_parts_thm {
+   background: url(/auto_parts_theme/static/src/img/footer/footer_bg_2.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.footer_2_gem_auto_parts_thm .tittle_footer_2 h4{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    position: relative;
+}
+.footer_2_gem_auto_parts_thm li{
+    line-height: 50px;
+}
+.footer_2_gem_auto_parts_thm li a{
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.footer_2_gem_auto_parts_thm li a:hover{ 
+    text-decoration: none;
+    color: red;
+}
+.footer_2_gem_auto_parts_thm .divider_footer_2 {
+    border-top: 2px solid #fff;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}   
+.footer_2_gem_auto_parts_thm .sep-element {
+    background-image: url(https://quattro.true-emotions.studio/wp-content/themes/quattro/images/decor.svg);
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 90px;
+    margin: auto;
+}
+.footer_2_gem_auto_parts_thm .custom_input_footer {
+    width: 100%;
+    height: 35px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3e3e3e;
+    outline: none;
+    color: #fff;
+    margin-bottom:20px;
+}
+.footer_2_gem_auto_parts_thm ::placeholder {
+  color: #fff;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+}
+.footer_2_gem_auto_parts_thm .send_footer_btn {
+    padding: 0.75em 2.5em;
+    background: #ff3837;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #fff!important;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+}
+

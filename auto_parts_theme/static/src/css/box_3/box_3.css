@@ -1,0 +1,109 @@
+.gem_3_box_3_auto_parts .comn_side_box_img_detalis {
+	background: url(/auto_parts_theme/static/src/img/box_3/box_3/1.png);
+	padding: 150px 50px;
+	background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.gem_3_box_3_auto_parts .comn_side_box_img_detalis:hover:before {
+	opacity: 1;
+    background: linear-gradient(90deg,rgba(26,26,26,.98) 35%,rgba(26,26,26,0) 90%);
+}
+.gem_3_box_3_auto_parts .comn_side_box_img_detalis:before{
+	position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg,rgba(26,26,26,.98) 25%,rgba(26,26,26,0) 90%);
+    z-index: -1;
+    -webkit-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+    opacity: 0;
+}
+.gem_3_box_3_auto_parts .comn_side_box_img_detalis:after{
+	position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg,rgba(26,26,26,.98) 25%,rgba(26,26,26,0) 90%);
+    z-index: -1;
+}
+.gem_3_box_3_auto_parts .comn_side_box_img_detalis h4 {
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 33px;
+}
+.gem_3_box_3_auto_parts .comn_side_box_img_detalis p{
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.gem_3_box_3_auto_parts .shop_now_btn_custom_box_3 {
+	display: inline-block;
+    padding: 12px 50px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    touch-action: manipulation;
+    transition: all .3s ease 0s;
+    vertical-align: middle;
+    background: #E52727;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.gem_3_box_3_auto_parts .left_side_box_comn_one {
+	background: url(/auto_parts_theme/static/src/img/box_3/box_3/2.png);
+	padding: 30px 30px 40px;
+	background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.gem_3_box_3_auto_parts .left_side_box_comn_one p{
+	font-size: 15px;
+}
+.gem_3_box_3_auto_parts .left_side_box_comn_one h4{
+	font-size:25px;
+	margin-bottom: 10px;
+}
+.gem_3_box_3_auto_parts .left_side_box_comn_two {
+	background: url(/auto_parts_theme/static/src/img/box_3/box_3/3.png);
+	padding: 30px 30px 40px;
+	background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.gem_3_box_3_auto_parts .left_side_box_comn_two h4{
+	font-size:25px;
+	margin-bottom: 10px;
+}
+.gem_3_box_3_auto_parts .left_side_box_comn_two p{
+	font-size: 15px;
+}

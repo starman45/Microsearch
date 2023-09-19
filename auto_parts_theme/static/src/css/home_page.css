@@ -1,0 +1,944 @@
+/*body{
+	background: url(https://www.nicepng.com/png/detail/57-576753_line-effect-png-line-png-effect.png);
+	background-position: center center;
+	background-repeat: repeat-y;
+	background-size: 55% auto;
+	overflow-x: hidden;
+	margin: 0px;
+}*/
+.clear {
+	clear: both;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/*tittle*/
+
+.auto_services_tittle_block {
+	text-align: center;
+}
+.auto_services_tittle_block strong {
+	position: relative;
+	display: inline-block;
+	padding-right: 48px;
+	padding-left: 48px;
+	font-size:32px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	margin-bottom:50px;
+	color: #000;
+}
+.auto_services_tittle_block strong:before{
+	content: "";
+	display: block;
+	width: 29px;
+	height: 20px;
+	background: url(/auto_parts_theme/static/src/img/others/icon-images.png) no-repeat -7px -100px;
+	position: absolute;
+    left: 0;
+	top: 14px;
+}
+.auto_services_tittle_block strong:after{
+	content: "";
+	display: block;
+	width: 29px;
+	height: 20px;
+	background: url(/auto_parts_theme/static/src/img/others/icon-images.png) no-repeat -63px -100px;
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+
+/*end_tittle*/
+
+
+/*footer*/
+.at_prts_footer {
+	background: #000;
+	background-image: url(/auto_parts_theme/static/src/img/footer/footer-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 3rem!important;
+}
+.at_prts_footer .theme-heading {
+	font-family: 'Staatliches', cursive;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1;
+	display: block;
+}
+.at_prts_footer .subscribe-heading_h3 {
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2;
+	margin-bottom: 5px;
+	display: block;
+	text-align: center;
+	font-size: 40px;
+}
+.at_prts_footer .detalis_p {
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+.at_prts_footer .subscribe-heading_h3::before {
+	content: "";
+	display: flex;
+	width: 280px;
+	height: 51px;
+	background: url(/auto_parts_theme/static/src/img/footer/text-highlight.png) no-repeat;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.at_prts_footer .link_area {
+	line-height: 2.5rem;
+}
+.at_prts_footer .link_area i {
+	color: #c30c0c;
+	font-size:12px;
+	padding-right:5px;
+}
+.at_prts_footer .link_area a {
+	color: #707070;
+	font-size: 14px;
+	transition: 0.8s;
+	font-family: 'Staatliches', cursive;
+}
+.at_prts_footer .link_area a:hover{
+	color: #c30c0c;
+	letter-spacing: 0.5px;
+	padding-left: 0.5rem;
+	text-decoration: none;
+}
+.at_prts_footer .form-subcriber_auto_part{
+	background: #fff;
+	max-width: 450px;
+	border-radius: 1rem;
+	position: relative;
+}
+.at_prts_footer .form-subcriber_auto_part input{
+	box-shadow: none;
+	width: 100%;
+	border: 0;
+	border-radius: 1rem;
+	padding: 0 2rem;
+	height: 50px;
+	outline: none;
+}
+.at_prts_footer .custom-btn-primary {
+	background-color: #c30c0c;
+	color: #ffffff;
+	min-width: 140px;
+	min-height: 50px;
+	border: 0;
+	border-radius: 1rem;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	font-weight: 700;
+	letter-spacing:1;
+}
+.at_prts_footer .icon_1_auto_parts i {
+	font-size:30px;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+.at_prts_footer .tittle_p_auto_part {
+	text-align: center;
+	margin-bottom:2px;
+	font-weight: 700;
+}
+.at_prts_footer .detalis_p_auto_part {
+	text-align: center;
+	font-weight:500;
+	font-size:15px;
+	line-height: 2;
+	font-family: 'Staatliches', cursive;
+}
+.at_prts_footer .bottom_detalis_auto_part {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.at_prts_footer .bottom_detalis_ul li {
+	padding: 0 2rem;
+}
+.at_prts_footer .bottom_detalis_ul li a {
+	color: #fff;
+	font-weight: 600;
+	position: relative;
+	letter-spacing: 1;
+	transition: 0.8s;
+}	
+.at_prts_footer .bottom_detalis_ul li a:hover{
+	color: #c30c0c;
+	text-decoration: none;
+}
+.at_prts_footer .bottom_detalis_ul li a:after{
+	content: "";
+	display: block;
+	width: 1px;
+	height: 10px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 8px;
+	right: -2rem;
+}
+/*end_footer*/
+
+
+/*Why Choose Us*/
+
+.auto-services_auto_parts {
+	padding: 20px;
+	margin-bottom: 70px;
+}
+.auto-services_auto_parts .service_item_auto_part {
+	position: relative;
+	display: flex;
+	margin-bottom: 30px;
+	background-color:#fff;
+	padding: 20px 10px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+	border-radius: 6px;
+	height: 170px;
+}
+.auto-services_auto_parts .service-column-l .service-image_auto_part{
+	order: 2;
+	padding-top: 15px;
+	margin-left: 15px;
+}
+.auto-services_auto_parts .service-column .service-image_auto_part {
+	padding-top: 15px;
+	margin-right: 15px;
+}
+.auto-services_auto_parts .service-column-l .service_info_autopart{
+	text-align: right!important;
+}
+.auto-services_auto_parts .service-column .service_info_autopart{
+	text-align: left;
+}
+.auto-services_auto_parts .des_p_sv_atp {
+	font-size: 13px;
+	color: #666666;
+	font-weight:600;
+}
+.auto-services_auto_parts .tittle_a_at_p {
+	color: #000;
+	margin-bottom:2px;
+	display: block;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+}
+
+/*mainsilder*/
+.main_silder_auto_part {
+	position: relative;
+	top: -10px;
+}
+
+.main_silder_auto_part .carousel-indicators {
+	opacity: 0;
+}
+
+.main_silder_auto_part .carousel-inner img {
+	width: 100%;
+	height:100%;
+}
+.main_silder_auto_part .carousel-control-prev_custom,.carousel-control-next_custom {
+	width: 10%!important;
+}
+.main_silder_auto_part .carousel-control-prev_custom i,.carousel-control-next_custom i{
+	background: #c30c0c;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 50px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.main_silder_auto_part:hover .carousel-control-prev_custom i,.main_silder_auto_part:hover .carousel-control-next_custom i{
+	opacity: 1;
+}
+.main_silder_auto_part .detalis_area_47 {
+	position: absolute;
+	top: 150px;
+	right:150px;
+	text-align: right;
+}
+.main_silder_auto_part .detalis_area_47 h2,.detalis_area_47_sec h2{
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	letter-spacing:8px;
+	font-size:90px;
+}
+.main_silder_auto_part .detalis_area_47 p, .detalis_area_47_sec p {
+	color: #fff;
+	text-align: right;
+	font-weight: 600;
+	line-height:2;
+	letter-spacing:2px;
+	display: block;
+	margin-bottom: 50px;
+}
+.main_silder_auto_part .detalis_area_47_sec p {
+	text-align: left!important;
+}
+
+.main_silder_auto_part .detalis_area_47_sec {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+.main_silder_auto_part .learn_more_custom_btn {
+	border: 2px solid #fff;
+	padding: 15px 50px;
+	color: #fff;
+	margin-left:15px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	transition: 1s;
+	border-radius: 5px;
+}
+
+.main_silder_auto_part .learn_more_custom_btn:hover {
+	background: #c30c0c;
+	text-decoration: none;
+	border-color:#c30c0c;
+}
+/*mainsilder*/
+
+/*two_offer_box*/
+
+.two_ofr_box_auto_part .info_ofr_box_at_prt {
+	position: absolute;
+	top:30px;
+	left:50px;
+}
+.two_ofr_box_auto_part .span_tittle_at_pt_79 {
+	color: #c30c0c;
+	font-family: 'Staatliches', cursive;
+	letter-spacing:1px;
+	font-size: 20px;
+}
+.two_ofr_box_auto_part .h2_sec_detalis_at_prt {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 600;
+}
+.two_ofr_box_auto_part .price_at_prt_8794 {
+	font-family: 'Staatliches', cursive;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 1px;
+	display: block;
+}
+.two_ofr_box_auto_part .buynow_btn_atr_pt_56 {
+	color: #fff;
+	font-family: 700;
+	display: block;
+	margin-top: 10px;
+	font-weight: 600;
+}
+.two_ofr_box_auto_part .info_ofr_box_at_prt_2 {
+	position: absolute;
+	top:30px;
+	right:50px;
+}
+.two_ofr_box_auto_part .discount_atr_pt {
+	color: #c30c0c;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+.two_ofr_box_auto_part .sec_h2_ofr_art_pt_475 {
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+}
+
+/*end_two_offer_box*/
+
+/*find_info*/
+
+.find_services_form {
+	background-color: #fff;
+	padding: 40px 35px 40px;
+	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	margin-top: -55px;
+	border-radius: 5px;
+	box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+}
+.find_srv_title_24_form_gem_auto_parts h2{
+	font-size:50px;
+	letter-spacing: 1px;
+	font-family: 'Staatliches', cursive;
+	margin-bottom:20px;
+}
+.form_selection_find_services_auto_parts .form-control_custom_fdf{
+	border-color: #e1e0e0; 
+	height: 58px; 
+	border-width: 2px; 
+	color: #000; 
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/*end_find_info*/
+
+
+/*control_vehicle*/
+
+.control_vehicle_auto_parts,.top_picks_auto_24_parts{
+	padding: 10px 0px;
+	background: linear-gradient(160deg, rgb(255 0 0) 0%, rgb(0 0 0) 100%);
+	color: #fff;
+	margin-bottom:50px;
+	display: block;
+}
+.control_vehicle_auto_parts .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #000;
+}
+.control_vehicle_auto_parts .nav-item_custom_auto_parts_07 {
+	width: 50%;
+	padding: 0 5px 10px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.control_vehicle_auto_parts .nav-item_custom_auto_parts_07 a {
+	margin-right: 0;
+	width: 100%;
+	height: 100%;
+	padding: 18px 0;
+	border-radius: 8px;
+	background: #9d0d0d;
+	border: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.control_vehicle_auto_parts .banner_holder_control_vehicle_auto_parts h4{
+	position: absolute; 
+	top:170px; 
+	left:30px; 
+	font-family: 'Staatliches', cursive; 
+	letter-spacing: 1px;
+	font-size: 50px;
+	background: linear-gradient(160deg, rgb(255 0 0) 0%, rgb(0 0 0) 100%);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.control_vehicle_auto_parts h3{
+	font-family: 'Staatliches', cursive;
+}
+
+/*end_control_vehicle*/
+
+
+/*toppicks*/
+.top_picks_box_deisgn_auto_parts_24 {
+	margin-right: 0;
+	width: 100%;
+	height: 100%;
+	padding: 18px 0;
+	border-radius: 8px;
+	background: #9d0d0d;
+	border: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.top_picks_auto_24_parts .top_picks_box_deisgn_auto_parts_24 h4{
+	font-family: 'Staatliches', cursive; 
+}
+
+/*end_toppicks*/
+
+/*Special_offer*/
+.special_offer_auto_parts_24 .swiper-pagination-clickable .swiper-pagination-bullet{
+	background: linear-gradient(160deg, rgb(255 0 0) 0%, rgb(0 0 0) 100%);
+	width: 20px;
+	height: 10px;
+	border-radius: 5px;
+}
+.special_offer_auto_parts_24 .swiper-pagination{
+	bottom: 0px!important;
+}
+.special_offer_auto_parts_24 .balck_box_special_ofr_auto_parts {
+	background:#000; 
+	margin-left:-80px; 
+	border-radius:5px; 
+	margin-top: 10px; 
+	color: #fff; 
+	text-align:left; 
+	padding:10px; 
+	width:580px;
+}
+/*end_Special_offer*/
+
+
+/*feature_product*/
+.feature_products_auto_parts_24 {
+	padding: 50px 0px;
+    background: linear-gradient(160deg, rgb(255 0 0) 0%, rgb(0 0 0) 100%);
+    color: #fff;
+    margin-bottom: 370px;
+    display: block;
+    height: 200px;
+    position: relative;
+}
+.features_box_design_swiper_silder_auto_parts {
+	margin-right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: linear-gradient(53deg, rgb(255 255 255 / 35%) 0%, #7b7070 106%);
+    border: none;
+    color: #000;
+    display: block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.features_box_design_swiper_silder_auto_parts h4,.rcm_product_auto_parts_24 h4,.tabs_multi_auto_parts_24 .box_deisgn_multi_tabs_auto_parts h4,.daily_deals_auto_parts .daily_deals_box_design_swiper_silder_auto_parts h4{
+	font-family: 'Staatliches', cursive; 
+	font-size: 20px;
+	letter-spacing: 1px;
+	display: block;
+	color: #000;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+	display: none;
+}
+
+/*end_feature_product*/
+
+/*silder_and_banner*/
+
+.silder_and_banner_auto_parts_24 {
+	background: url(/auto_parts_theme/static/src/img/banner_sld/bg_brand.jpg);
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height:440px;
+	padding: 20px 0px;
+}
+.silder_and_banner_auto_parts_24 .swiper-pagination{
+	bottom: 0px!important;
+}
+.silder_and_banner_auto_parts_24 .swiper-pagination-clickable .swiper-pagination-bullet {
+	background: #fff;
+	width: 20px;
+	height: 3px;
+	border-radius: 5px;
+}
+/*end_silder_and_banner*/
+
+/*Recommended Products*/
+
+.rcm_product_auto_parts_24 {
+	background:url(/auto_parts_theme/static/src/img/rcm_pro/rcm_parts.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.rcm_product_auto_parts_24 .rcm_box_design_swiper_silder_auto_parts{
+	margin-right: 0;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: #fff;
+    border: none;
+    color: #000;
+    display: block;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    position: relative;
+    overflow: hidden;
+}
+/*end_Recommended Products*/
+
+/*daily_deals*/
+.daily_deals_box_design_swiper_silder_auto_parts {
+	margin-right: 0;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    display: block;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 110px;
+    position: relative;
+    overflow: hidden;	
+    margin-bottom: 75px;
+}
+.daily_deals_auto_parts .swiper-pagination {
+	bottom: 0px;
+}
+.daily_deals_auto_parts .swiper-pagination-clickable .swiper-pagination-bullet {
+	background:#fff;
+	width: 20px;
+	height: 5px;
+	border-radius: 5px;
+}
+/*end_daily_deals*/
+
+/*multi_tabs*/
+.tabs_multi_auto_parts_24_bg {
+	background: linear-gradient(160deg, rgb(255 0 0) 0%, rgb(0 0 0) 100%);
+	padding: 30px 0px;
+	height: 200px;
+	margin-bottom: 100px;
+	color: #fff;
+}
+.tabs_multi_auto_parts_24 .box_deisgn_multi_tabs_auto_parts {
+	margin-right: 10px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: linear-gradient(53deg, rgb(255 255 255 / 35%) 0%, #7b7070 106%);
+    border: none;
+    color: #000;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.tabs_multi_auto_parts_24 .nav_tabs_custom_multi_tabs{
+	border-bottom:none;
+	color: #fff;
+	margin-top: -3px;
+}
+.tabs_multi_auto_parts_24 .nav_tabs_custom_multi_tabs .nav-link{
+	border: none;
+}
+.tabs_multi_auto_parts_24 .nav_tabs_custom_multi_tabs a {
+	font-family: 'Staatliches', cursive; 
+	color: #fff;
+	letter-spacing: 1px;
+	padding-left: 10px;
+}
+.tabs_multi_auto_parts_24 .nav_tabs_custom_multi_tabs a:hover {
+	border: none;
+	padding-left: 10px;
+}
+.tabs_multi_auto_parts_24 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	background: #fff;
+    border: none;
+	color: #000;
+	border-radius:5px;
+	box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+}
+/*end_multi_tabs*/
+
+/*button_hover*/
+
+.btn_acele {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	padding: 15px 50px;
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px; 
+	border-radius: 5px;
+}
+.btn_acele::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+	border-radius: 5px;
+
+}
+.btn_acele:hover::after, 
+.btn_acele:active::after {
+    width: 100%; 
+}
+.btn_black {
+    background: #c30c0c;
+    color: #fff; 
+}
+.btn_black::after {
+    background: #000;
+}
+.btn_black:visited {
+    color: #fff; 
+}
+.btn_black:hover {
+    color: #fff; 
+    text-decoration: none;
+}
+.Add_to_cart_btn .btn_black{
+	background: linear-gradient(160deg, rgb(255 0 0) 0%, rgb(0 0 0) 100%);
+}
+.qucick_view_btn_auto_parts .a_quick_view{
+	background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: #000;    
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding-top: 9px;
+    text-align: center;
+    transition: 0.3s;
+    position:absolute; 
+    top:10px; 
+    right:-50px;
+    opacity: 0;
+}
+.rcm_box_design_swiper_silder_auto_parts:hover .qucick_view_btn_auto_parts .a_quick_view,.features_box_design_swiper_silder_auto_parts:hover .qucick_view_btn_auto_parts .a_quick_view,.box_deisgn_multi_tabs_auto_parts:hover .qucick_view_btn_auto_parts .a_quick_view,.daily_deals_box_design_swiper_silder_auto_parts:hover .qucick_view_btn_auto_parts .a_quick_view{
+	right: 10px;	
+	opacity: 1;
+}
+.qucick_view_btn_auto_parts .a_quick_view:hover{
+	background: linear-gradient(160deg, rgb(255 0 0) 0%, rgb(0 0 0) 100%);
+	color: #fff;
+}
+.navigation_features_auto-parts .swiper-button-next,.navigation_features_auto-parts .swiper-button-prev{
+	background: #fff; 
+	width: 35px; 
+	height: 35px; 
+	border-radius: 50px!important; 
+	top:58%;
+	opacity: 0;
+	transition:0.5s;
+	display: flex;
+}
+.features_products_swiper_silder:hover .navigation_features_auto-parts .swiper-button-next,.features_products_swiper_silder:hover .navigation_features_auto-parts .swiper-button-prev,.tabs_multi_auto_parts_24 .swiper-button-prev{
+	opacity: 1!important;
+}
+
+.rcm_box_design_swiper_silder_auto_parts img,.features_box_design_swiper_silder_auto_parts img,.box_deisgn_multi_tabs_auto_parts img,.daily_deals_box_design_swiper_silder_auto_parts img{
+	transition: transform .33s ease;
+}
+
+.rcm_box_design_swiper_silder_auto_parts:hover img,.features_box_design_swiper_silder_auto_parts:hover img,.box_deisgn_multi_tabs_auto_parts:hover img,.daily_deals_box_design_swiper_silder_auto_parts:hover img{
+	transform: scale(1.1);
+}
+
+/*header*/
+
+
+.main_header_auto_parts_theme .header_auto_parts {
+    position:absolute;
+    z-index: 10;
+    left: 40px;
+    right: 40px;
+    top:20px;
+    font-family: 'Staatliches', cursive;
+    height:80px;
+    background-color: #fff;
+    padding: 0 5%;
+    letter-spacing: 2px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+.main_header_auto_parts_theme .header_auto_parts.shrink {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    transition:0.5s;
+    top: 0px;
+}
+.header_auto_parts .logo { 
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #000;
+}
+.header_auto_parts .links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_auto_parts .links li {
+    list-style: none;
+}
+.header_auto_parts .links a {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+.header_auto_parts .links a:hover {
+    color:#000;
+}
+.header_auto_parts .links a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color:#000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+.header_auto_parts .links a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+    color: #000;
+}
+#nav-toggle {
+    position: absolute;
+    top: -100px;
+}
+.header_auto_parts .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header_auto_parts .icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #000;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .5s ease-in-out;
+}
+@media screen and (max-width: 991px) {
+    .header_auto_parts .logo {
+        float: none;
+        width: auto;
+        justify-content:left;
+    }
+    .header_auto_parts .links {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 80px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #000;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+    .header_auto_parts .links a {
+        font-size: 20px;
+    }
+    .header_auto_parts :checked ~ .links {
+        bottom: 0;
+    }
+    .header_auto_parts .icon-burger {
+        display: block;
+    }
+    .header_auto_parts :checked ~ .icon-burger .line:nth-child(1) {
+        transform: translateY(10px) rotate(225deg);
+    }
+    .header_auto_parts :checked ~ .icon-burger .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-225deg);
+    }
+    .header_auto_parts :checked ~ .icon-burger .line:nth-child(2) {
+        opacity: 0;
+    }
+    .main_header_auto_parts_theme #top_menu{
+		background: #ffffff;
+    	text-align: center;
+    	box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    	margin-top: 10px;
+    	padding: 15px;
+	}
+	.header_auto_parts .logo{
+		width: 100%!important;
+		margin-top: -8px;
+	}
+	.main_header_auto_parts_theme .o_wsale_my_cart{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.main_header_auto_parts_theme .navbar-nav li a{
+	color: #000!important;
+	margin-right: 15px;
+	padding: 7px 20px;
+	font-family: 'Staatliches', cursive;
+}
+.main_header_auto_parts_theme .nav-link.active{
+	color: #FFF!important;
+    background: red;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.main_header_auto_parts_theme .logo{
+	margin-left:20px;
+}
+.main_header_auto_parts_theme .o_extra_menu_items a{
+	color: #000!important;
+}
+@media screen and (min-width: 991px) and (max-width: 1199px){
+	.header_auto_parts .logo{
+		width: 30%;
+	}
+}
+@media screen and (min-width: 280px) and (max-width: 767px){
+	.main_header_auto_parts_theme .container{
+		max-width: 100%;
+		padding: 0px;
+	}
+}
+
+.daily_deals_auto_parts .row{
+	--gutter-x: 0px!important;
+}
+
+
+.main_header_auto_parts_theme .col-lg-12{
+	min-height: 0px!important;
+}
+
+.o_wsale_products_page {
+	margin-top: 120px;
+}
+
+/*end_header*/
+
+

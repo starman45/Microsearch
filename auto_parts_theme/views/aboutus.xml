@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <odoo>
+      <data>
+        <template id="auto_parts_theme.aboutus" name="Contact Us">
+          <t t-call="website.layout">
+            <section class="main_banner_about_us_page_auto_parts_24">
+              <h4>About Us</h4>
+            </section>  
+            <section class="banner_and_desc_tabs_auto_parts_25" style="margin-top:50px;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="img_holder_tabs_banner_auto_parts">
+                      <img src="https://idealauto.jwsuperthemes.com/wp-content/uploads/2021/01/about-us-banner.png" class="img-fluid"/>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="desc_and_detalis_all_auto_parts_24">
+                      <h4>Lorem ipsum dolor sit amet consectetur adipiscing elit</h4>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="detalis_boxes_auto_parts_aboutus_24">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="box_design_fn_auto_parts_24_detalis">
+                      <div class="box_inner_detalis_auto_parts_24">
+                        <a href="#">
+                          <div class="box_icos_auto_parts_auto_parts">
+                            <img src="https://cdn-icons-png.flaticon.com/512/598/598789.png" class="img-fluid" style="width:70px; margin-right:35px;"/>
+                          </div> 
+                          <div class="info_auto_parts_24" style="margin-left:20px;">
+                            <h4>Lorem ipsum dolor sit</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="box_design_fn_auto_parts_24_detalis">
+                      <div class="box_inner_detalis_auto_parts_24">
+                        <a href="#">
+                          <div class="box_icos_auto_parts_auto_parts">
+                            <img src="https://cdn-icons-png.flaticon.com/512/598/598789.png" class="img-fluid" style="width:70px; margin-right:35px;"/>
+                          </div> 
+                          <div class="info_auto_parts_24" style="margin-left:20px;">
+                            <h4>Lorem ipsum dolor sit</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="box_design_fn_auto_parts_24_detalis">
+                      <div class="box_inner_detalis_auto_parts_24">
+                        <a href="#">
+                          <div class="box_icos_auto_parts_auto_parts">
+                            <img src="https://cdn-icons-png.flaticon.com/512/598/598789.png" class="img-fluid" style="width:70px; margin-right:35px;"/>
+                          </div> 
+                          <div class="info_auto_parts_24" style="margin-left:20px;">
+                            <h4>Lorem ipsum dolor sit</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="box_design_fn_auto_parts_24_detalis">
+                      <div class="box_inner_detalis_auto_parts_24">
+                        <a href="#">
+                          <div class="box_icos_auto_parts_auto_parts">
+                            <img src="https://cdn-icons-png.flaticon.com/512/598/598789.png" class="img-fluid" style="width:70px; margin-right:35px;"/>
+                          </div> 
+                          <div class="info_auto_parts_24" style="margin-left:20px;">
+                            <h4>Lorem ipsum dolor sit</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="staff_detalis_auto_parts_aboutus">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <a href="#">
+                      <div class="image_holder_auto_parts_24_aboutus" style="position:relative;">
+                        <img src="https://idealauto.jwsuperthemes.com/wp-content/uploads/2021/01/team_a1.jpg" class="img-fluid" style="border-radius:5px;"/>
+                        <div class="info_btns_staff_auto_parts_about">
+                          <a href="#" class="info_staff_auto_parts a">
+                            <i class="fa fa-info"></i>
+                          </a>
+                          <a href="#" class="call_staff_auto_parts a">
+                            <i class="fa fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>  
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <a href="#">
+                      <div class="image_holder_auto_parts_24_aboutus" style="position:relative;">
+                        <img src="https://idealauto.jwsuperthemes.com/wp-content/uploads/2021/01/team_a2.jpg" class="img-fluid" style="border-radius:5px;"/>
+                        <div class="info_btns_staff_auto_parts_about">
+                          <a href="#" class="info_staff_auto_parts a">
+                            <i class="fa fa-info"></i>
+                          </a>
+                          <a href="#" class="call_staff_auto_parts a">
+                            <i class="fa fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <a href="#">
+                      <div class="image_holder_auto_parts_24_aboutus" style="position:relative;">
+                        <img src="https://idealauto.jwsuperthemes.com/wp-content/uploads/2021/01/team_a3.jpg" class="img-fluid" style="border-radius:5px;"/>
+                        <div class="info_btns_staff_auto_parts_about">
+                          <a href="#" class="info_staff_auto_parts a">
+                            <i class="fa fa-info"></i>
+                          </a>
+                          <a href="#" class="call_staff_auto_parts a">
+                            <i class="fa fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="progress_and_desc_auto_parts_24" style="margin-bottom:50px;">
+              <div class="auto_services_tittle_block">  
+                <strong style="margin-bottom:0px; margin-top:20px;">
+                  Lorem ipsum 
+                </strong>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="desc_detalis_auto_parts_24">
+                      <h4>Lorem ipsum dolor sit amet consectetur adipiscing elit</h4>
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                      <p> 
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="main_progress_bar_auto_parts">
+                      <span>Lorem ipsum dolor sit amet</span>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                      </div>
+                      <br/>
+                      <span>Lorem ipsum dolor sit amet</span>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:50%"></div>
+                      </div>
+                      <br/>
+                      <span>Lorem ipsum dolor sit amet</span>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:60%"></div>
+                      </div>
+                      <br/>
+                      <span>Lorem ipsum dolor sit amet</span>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="search_parts_auto_parts_247_aboutus" style="margin-bottom:30px;">
+              <div class="container">
+                <div class="box_inner_design_auto_parts_247">
+                  <div class="find_srv_title_24_form_gem_auto_parts"> 
+                    <h2>SEARCH PARTS</h2>
+                  </div>
+                  <div class="form_selection_find_services_auto_parts_contact">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <select class="form-control form-control_custom_fdf" id="sel1" name="sellist1">
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                        </select>
+                      </div>
+                      <div class="col-lg-3">
+                        <select class="form-control form-control_custom_fdf" id="sel1" name="sellist1">
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                        </select>
+                      </div>
+                      <div class="col-lg-3">
+                        <select class="form-control form-control_custom_fdf" id="sel1" name="sellist1">
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                          <option>Lorem ipsum</option>
+                        </select>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="#" class="btn_acele btn_black">Submit</a>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </section>
+          </t>
+        </template>
+
+        <record id="aboutus_page" model="website.page">
+          <field name="url">/aboutus</field>
+          <field name="is_published">True</field>
+          <field name="view_id" ref="aboutus"/>
+          <field name="track">True</field>
+        </record>
+
+        <record id="menu_aboutus" model="website.menu">
+          <field name="name">About us</field>
+          <field name="url">/aboutus</field>
+          <field name="page_id" ref="auto_parts_theme.aboutus_page"/>
+          <field name="parent_id" ref="website.main_menu"/>
+          <field name="sequence" type="int">60</field>
+        </record>
+
+      </data>
+    </odoo>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+         <template id="geminate_headers" inherit_id="website.snippet_options">
+            <xpath expr="//we-select[@data-variable='header-template']" position="inside">        
+                 
+                <!-- add new header -->
+                <we-button title="Geminate secound_header_2"
+                           data-name="header_test_opt1"
+                           data-customize-website-views="auto_parts_theme.frist_header"
+                           data-customize-website-variable="'geminate_template_header_1'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/header/1 copy.png"/>    
+
+                <we-button title="Geminate secound_header_them_website"
+                           data-name="header_test_opt2"
+                           data-customize-website-views="auto_parts_theme.secound_header"
+                           data-customize-website-variable="'geminate_template_header_2'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/header/2 copy.png"/>  
+
+                <we-button title="Geminate third_header_make"
+                           data-name="header_test_opt3"
+                           data-customize-website-views="auto_parts_theme.third_header"
+                           data-customize-website-variable="'geminate_template_header_3'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/header/3 copy.png"/> 
+
+                 <we-button title="Geminate header_five_them"
+                           data-name="header_test_opt4"
+                           data-customize-website-views="auto_parts_theme.header_four"
+                           data-customize-website-variable="'geminate_template_header_4'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/header/4 copy.png"/>
+
+                <we-button title="Geminate header_five_make"
+                           data-name="header_test_opt5"
+                           data-customize-website-views="auto_parts_theme.header_five"
+                           data-customize-website-variable="'geminate_template_header_5'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/header/5 copy.png"/>                                                              
+            </xpath>
+        </template>
+
+
+        <template id="geminate_snippets" inherit_id="website.snippet_options">
+            <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+               	<we-button title="footer_1"
+                           data-customize-website-views="auto_parts_theme.template_footer_1"
+                           data-customize-website-variable="'autoparts_footer_1'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/1 copy.png"/>
+
+               	<we-button title="Footer_2"
+                           data-customize-website-views="auto_parts_theme.template_footer_2"
+                           data-customize-website-variable="'ecomerce_footer_2'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/2 copy.png"/>
+				 
+				<we-button title="footer_3"
+                           data-customize-website-views="auto_parts_theme.template_footer_3"
+                           data-customize-website-variable="'ecomerce_footer_3'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/3 copy.png"/>
+
+                <we-button title="footer_4"
+                           data-customize-website-views="auto_parts_theme.template_footer_4"
+                           data-customize-website-variable="'ecomerce_footer_4'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/4 copy.png"/>
+
+                <we-button title="footer_5"
+                           data-customize-website-views="auto_parts_theme.template_footer_5"
+                           data-customize-website-variable="'ecomerce_footer_5'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/5 copy.png"/>
+
+                <we-button title="footer_6"
+                           data-customize-website-views="auto_parts_theme.template_footer_6"
+                           data-customize-website-variable="'ecomerce_footer_6'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/6 copy.png"/>
+
+                <we-button title="footer_7"
+                           data-customize-website-views="auto_parts_theme.template_footer_7"
+                           data-customize-website-variable="'ecomerce_footer_7'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/7 copy.png"/>
+
+                <we-button title="footer_8"
+                           data-customize-website-views="auto_parts_theme.template_footer_8"
+                           data-customize-website-variable="'ecomerce_footer_8'"
+                           data-img="/auto_parts_theme/static/src/img/snippet_images/footer/8 copy.png"/>
+
+            </xpath>
+        </template>
+    </data>
+</odoo>

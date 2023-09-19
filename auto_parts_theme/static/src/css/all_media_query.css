@@ -1,0 +1,753 @@
+/*aboutus*/
+@media (max-width:991px){
+
+	.main_banner_about_us_page_auto_parts_24 {
+		justify-content: center;
+	}
+	.banner_and_desc_tabs_auto_parts_25 .desc_and_detalis_all_auto_parts_24,.progress_and_desc_auto_parts_24 .desc_detalis_auto_parts_24{
+		text-align: center;
+	}
+	.staff_detalis_auto_parts_aboutus .image_holder_auto_parts_24_aboutus{
+		margin-bottom: 20px;
+	}
+	.main_progress_bar_auto_parts {
+		margin-top:20px;
+	}
+	.search_parts_auto_parts_247_aboutus .form-control_custom_fdf {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:767px){
+	.detalis_boxes_auto_parts_aboutus_24 .box_inner_detalis_auto_parts_24 a{
+		display: block;
+		text-align: center;
+	}	
+	.detalis_boxes_auto_parts_aboutus_24 .box_inner_detalis_auto_parts_24 img {
+		margin-right: 0px!important;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width:768px) and (max-width:991px){
+	.box_inner_detalis_auto_parts_24 .info_auto_parts_24 h4 {
+		font-size: 20px;
+	}
+}
+/*end_aboutus*/
+
+
+/*contactus*/
+
+@media (max-width:991px){
+	.main_banner_auto_parts_24{
+		justify-content: center;
+	}
+	.main_banner_auto_parts_24 h4 {
+		font-size: 50px;
+	}
+
+	.other_country_detalis .desc_detalis_country_auto_parts p {
+		width: auto;
+	}
+	.search_parts_auto_parts_247_contactus .form-control_custom_fdf {
+		margin-bottom: 30px;
+	}
+	.other_country_detalis .img_and_desc_auto_parts_24{
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:767px){
+	.other_country_detalis .desc_detalis_country_auto_parts {
+		left: 20px;
+	}
+	.other_country_detalis .desc_detalis_country_auto_parts h4 {
+		font-size: 20px;
+	}
+	.other_country_detalis .desc_detalis_country_auto_parts{
+		bottom: -8px;
+	}
+}
+
+/*end_contactus*/
+
+
+/*homepage*/
+
+@media (max-width:991px) {
+	.find_services_form {
+		width: auto;
+	}
+	.at_prts_footer .bottom_detalis_auto_part .bottom_detalis_ul{
+		display: block!important;
+		text-align: center;
+	}
+	.at_prts_footer .bottom_detalis_ul li {
+		margin-bottom: 25px;
+	}
+	.main_silder_auto_part .carousel-control-prev_custom i, .carousel-control-next_custom i,.special_offer_auto_parts_24 .swiper_image_holder_special_offer_autoparts_24 img{
+		display: none;
+	}
+	.special_offer_auto_parts_24 .desc_special_offer_swiper_auto_parts_24{
+		margin-left: 0px!important;
+	}
+	.special_offer_auto_parts_24 .desc_special_offer_swiper_auto_parts_24 p{
+		width: auto!important;
+	}
+	.daily_deals_auto_parts .daily_deals_box_design_swiper_silder_auto_parts{
+		margin-left: 195px;
+	}
+	.daily_deals_auto_parts .swiper-pagination {
+		left: 90px!important;
+	}
+	.auto-services_auto_parts .service_item_auto_part {
+		right:0px!important;
+		left: 0px!important;
+	}
+	.control_vehicle_auto_parts .tab-content{
+		text-align: center;
+	}
+	.tabs_multi_auto_parts_24 .nav_tabs_custom_multi_tabs {
+		justify-content: center;
+	}
+	.form_selection_find_services_auto_parts .form-control_custom_fdf{
+		margin-bottom: 15px;
+	}
+	.main_header_auto_parts_theme .header_auto_parts .logo img{
+		width: 120!important;
+	}
+	.control_vehicle_auto_parts .banner_holder_control_vehicle_auto_parts{
+		margin-top: 0px!important;
+	}
+	.special_offer_auto_parts_24 .balck_box_special_ofr_auto_parts .Add_to_cart_btn {
+		margin-left: 0px!important;
+	}
+	.auto_services_tittle_block strong:before,.auto_services_tittle_block strong:after{
+		top: 5px;
+	}
+	.auto-services_auto_parts .service_item_auto_part{
+		display: block;
+		height: auto;
+	}
+	.auto-services_auto_parts .service-column-l .sv_tittle_auto_part,.auto-services_auto_parts .service-column-r .service_info_autopart{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+}
+
+
+@media (max-width:767px) {
+	.header_auto_parts .links a {
+		color: #fff;
+	}
+	.daily_deals_auto_parts  .left_side_image_holder_dd_auto_parts img,.at_prts_footer .bottom_detalis_ul li a:after,.at_prts_footer .link_area i,.control_vehicle_auto_parts .banner_holder_control_vehicle_auto_parts h4{
+		display: none;
+	}
+	.auto_services_tittle_block strong {
+		font-size: 20px;
+	}
+	.feature_products_auto_parts_24 {
+		padding: 50px 10px;
+		height: auto;
+	}
+	.at_prts_footer .detalis_list_auto_part,.top_picks_auto_24_parts{
+		text-align: center;
+	}
+	.main_silder_auto_part .find_services_form {
+		margin-top: 20px;
+	}
+	.top_picks_auto_24_parts .image_holder_car_top_picks_auto_parts {
+		position: relative!important;
+	}
+	.top_picks_auto_24_parts .image_holder_car_top_picks_auto_parts img,.top_picks_auto_24_parts h2,.top_picks_auto_24_parts .more_product_btn{
+		margin-left: 0px!important;
+		margin-bottom: 15px;
+	}
+	.silder_and_banner_auto_parts_24 {
+		height: auto;
+		text-align: center;
+		padding: 50px 0;
+	}
+	.silder_and_banner_auto_parts_24 .desc_silder_and_banner h4{
+		font-size: 30px!important;
+		line-height: 45px;
+	}
+	.silder_and_banner_auto_parts_24 .img_holder_silder_banner_auto_parts{
+		margin-top: 30px;
+	}
+	.two_ofr_box_auto_part .comn_boxes_ofer_auto_parts_24{
+		margin-bottom: 50px;
+		position: relative;
+	}
+	.two_ofr_box_auto_part .span_tittle_at_pt_79,.two_ofr_box_auto_part .h2_sec_detalis_at_prt,.two_ofr_box_auto_part .price_at_prt_8794{
+		font-size: inherit;
+	}
+	.two_ofr_box_auto_part .comn_boxes_ofer_auto_parts_24 .image_holder_at_par-78 img{
+		height: 190px;
+	}
+	.two_ofr_box_auto_part .info_ofr_box_at_prt_2 {
+		right: 32px;
+	}
+	.main_header_auto_parts_theme .header_auto_parts{
+		position:relative;
+		top: 0px;
+		right: 0px;
+		left: 0px;
+	}
+	.main_silder_auto_part,.auto-services_auto_parts .service-column-l .service_info_autopart{
+		text-align: center;
+	}
+	.main_silder_auto_part .detalis_area_47 p, .detalis_area_47_sec p {
+		display: none;
+	}
+	.main_silder_auto_part .btn_acele,.main_silder_auto_part .learn_more_custom_btn{
+		padding: 10px 20px;
+	}
+	.special_offer_auto_parts_24 .balck_box_special_ofr_auto_parts,.special_offer_auto_parts_24 .red_box_special_ofr_auto_parts{
+		margin-left: 0px;
+		text-align: center!important;
+	}
+	.silder_and_banner_auto_parts_24 .img_holder_silder_banner_auto_parts img{
+		margin-bottom: 50px;
+	}
+	.feature_products_auto_parts_24,.tabs_multi_auto_parts_24 .box_deisgn_multi_tabs_auto_parts{
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.header_auto_parts .links a{
+		padding: 0px;
+	}
+	.main_silder_auto_part .find_services_form{
+		margin-top: -30px;
+	}
+	.main_silder_auto_part .detalis_area_47_sec p,.main_silder_auto_part .detalis_area_47 p, .detalis_area_47_sec p,.at_prts_footer .link_area i{
+		display: none;
+	}
+	.main_silder_auto_part .detalis_area_47 h2, .detalis_area_47_sec h2 {
+		font-size: 40px;
+	}
+	.main_silder_auto_part .detalis_area_47_sec, .main_silder_auto_part .detalis_area_47 {
+		text-align: center;
+		left: 0px;
+		right: 0px;
+	}
+	.control_vehicle_auto_parts .banner_holder_control_vehicle_auto_parts h4 {
+		top: 85px;
+	}
+	.daily_deals_auto_parts .left_side_image_holder_dd_auto_parts img{
+		width: 100%;
+	}
+	.special_offer_auto_parts_24 .balck_box_special_ofr_auto_parts {
+		margin-left: 0px;
+	}
+	.silder_and_banner_auto_parts_24,.two_ofr_box_auto_part,.detalis_list_auto_part{
+		height: auto;
+		text-align: center;
+	}
+	.silder_and_banner_auto_parts_24 .img_holder_silder_banner_auto_parts{
+		margin-top: 50px;
+	}
+	.silder_and_banner_auto_parts_24 .row{
+		justify-content: center;
+	}
+	.two_ofr_box_auto_part .comn_boxes_ofer_auto_parts_24{
+		margin-bottom: 20px;
+	}
+	.two_ofr_box_auto_part .info_ofr_box_at_prt{
+		text-align: left;
+		left: 100px;
+	}
+	.two_ofr_box_auto_part .info_ofr_box_at_prt_2 {
+		text-align: right;
+		right: 100px;
+	}
+	.top_picks_auto_24_parts .image_holder_car_top_picks_auto_parts {
+		position: relative!important;
+	}
+	.top_picks_auto_24_parts .image_holder_car_top_picks_auto_parts img {
+		margin-bottom: 50px;
+	}
+	.top_picks_auto_24_parts h2,.top_picks_auto_24_parts .more_product_btn{
+		margin-left: 0px!important;
+		text-align: center;
+		line-height:40px;
+	}
+}
+@media (min-width:280px) and (max-width:500px){
+	.tabs_multi_auto_parts_24 .swiper-button-next{
+		position: relative;
+		margin-bottom: 15px;
+		top: 48px!important;
+		left: 200px;
+	}
+	.tabs_multi_auto_parts_24 .swiper-button-prev{
+		position: relative;
+		margin-bottom: 15px;
+		left: 140px!important;
+	}
+
+	.main_silder_auto_part .detalis_area_47_sec,.main_silder_auto_part .detalis_area_47{
+		top:30px;
+		left: 0px;
+		right: 0px;
+		text-align: center;
+	}
+	.main_silder_auto_part .detalis_area_47 h2, .detalis_area_47_sec h2 {
+		font-size: inherit;
+		line-height: 35px;
+	}
+	.feature_products_auto_parts_24,.tabs_multi_auto_parts_24 .box_deisgn_multi_tabs_auto_parts,.control_vehicle_auto_parts, .top_picks_auto_24_parts {
+		margin-bottom: 50px;
+	}
+	.auto_services_tittle_block_top_picks {
+		margin-top: 100px;
+	}
+
+}
+@media (min-width:501px) and (max-width:767px){
+	.tabs_multi_auto_parts_24 .swiper-button-prev{
+		position: absolute;
+	}
+	.silder_and_banner_auto_parts_24 .desc_silder_and_banner h4{
+		margin-top: 0px!important;
+	}
+	.main_silder_auto_part .detalis_area_47_sec,.main_silder_auto_part .detalis_area_47{
+		top:40px;
+		left: 0px;
+		right: 0px;
+		text-align: center;
+	}
+	.main_silder_auto_part .detalis_area_47 h2, .detalis_area_47_sec h2 {
+		font-size: 45px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width:992px) and (max-width:1250px){
+	.main_silder_auto_part .find_services_form{
+		width: auto;
+		margin-top: -50px;
+	}
+	.main_silder_auto_part .detalis_area_47 h2, .detalis_area_47_sec h2{
+		font-size: 60px;
+	}
+	.main_silder_auto_part .detalis_area_47,.main_silder_auto_part .detalis_area_47_sec{
+		top: 110px;
+	}
+	.daily_deals_auto_parts .left_side_image_holder_dd_auto_parts img,.special_offer_auto_parts_24 .desc_special_offer_swiper_auto_parts_24 p{
+		width: 100%!important;
+	}
+	.special_offer_auto_parts_24 .swiper_image_holder_special_offer_autoparts_24 img{
+		display: none;
+	}
+	.special_offer_auto_parts_24 .balck_box_special_ofr_auto_parts,.special_offer_auto_parts_24 .desc_special_offer_swiper_auto_parts_24,.special_offer_auto_parts_24 .Add_to_cart_btn{
+		margin-left: 0px!important;
+	}
+	.special_offer_auto_parts_24 .balck_box_special_ofr_auto_parts,.special_offer_auto_parts_24 .red_box_special_ofr_auto_parts{
+		text-align: center!important;
+	}
+	.daily_deals_auto_parts .Add_to_cart_btn .btn_acele,.tabs_multi_auto_parts_24 .Add_to_cart_btn .btn_acele{
+		font-size: 12px;
+	}
+	.top_picks_auto_24_parts h2,.top_picks_auto_24_parts .more_product_btn{
+		margin-left: -3%!important;
+	}
+	.silder_and_banner_auto_parts_24 {
+		height: auto;
+	}
+	.two_ofr_box_auto_part .comn_boxes_ofer_auto_parts_24 img{
+		height: 200px;
+	}
+
+}
+
+/*end_homepage*/
+
+/*Footer*/
+
+@media(min-width: 280px) and (max-width: 991px){
+	.footer_1_gem_auto_parts_thm .social_media_main{
+		justify-content: center;
+		margin-bottom: 25px;
+	}
+	.footer_1_gem_auto_parts_thm .custom_input_footer_01{
+		width: 100%!important;
+		margin-bottom: 20px;
+	}
+	.footer_1_gem_auto_parts_thm .Subscribe_footer_24,.footer_3_gem_auto_parts_thm{
+		text-align: center;
+	}
+	.footer_1_gem_auto_parts_thm .tittle_footer_1,.footer_2_gem_auto_parts_thm .tittle_footer_2,.footer_4_gem_auto_parts_thm .upper_logo_detalis_footer_4-234,.footer_4_gem_auto_parts_thm .h4_tiitle_ft_4_auto,.footer_4_gem_auto_parts_thm .company_links_ft_4 li,.footer_5_gem_auto_parts_thm .compny_links_ft_5,.newsletter_footer_6,.footer_6_gem_auto_parts_thm .links_compnay,.footer_6_gem_auto_parts_thm .upper_detalis_logo_ft_6{
+		text-align: center;
+	}
+	.footer_1_gem_auto_parts_thm .divider_footer_1,.footer_2_gem_auto_parts_thm .divider_footer_2,.footer_5_gem_auto_parts_thm .logo_and_detalis_foter_5_24,.footer_6_gem_auto_parts_thm .links_compnay,.footer_6_gem_auto_parts_thm .upper_detalis_logo_ft_6{
+		margin-bottom: 25px!important;
+	}
+	.footer_2_gem_auto_parts_thm .sep-element,.footer_4_gem_auto_parts_thm .contactus_upper_detalis{
+		display: none;
+	}
+	.footer_3_gem_auto_parts_thm .tittle_h4_ft_3 {
+		font-size:30px!important;
+		text-align: center;
+	}
+	.footer_3_gem_auto_parts_thm .contact_detalis_footer_3 ul{
+		display: block!important;
+	}
+	.footer_3_gem_auto_parts_thm .contact_detalis_footer_3 a {
+		display: inline-block;
+		margin-right: 0px!important;
+		margin-bottom: 20px;
+	}
+	.footer_3_gem_auto_parts_thm .feedback_footer_3 i {
+		margin-right: 0px!important;
+	}
+	.footer_3_gem_auto_parts_thm .border_lft_footer_3,.footer_6_gem_auto_parts_thm .col-lg-4{
+		border:none!important;
+	}
+	.footer_5_gem_auto_parts_thm .compny_links_ft_5,.footer_7_gem_auto_parts_thm .right_side_detalis li a,.footer_7_gem_auto_parts_thm .right_side_detalis h4{
+		margin-left: 0px!important;
+	}
+	.newsletter_footer_6 h4{
+		font-size: 35px!important;
+		margin-left: 0px!important;
+	}
+	.footer_7_gem_auto_parts_thm .right_side_detalis {
+		height: auto!important;
+	}
+	.footer_7_gem_auto_parts_thm .newsletter_ft_7 p{
+		width: auto!important;
+	}
+	.footer_7_gem_auto_parts_thm .logo_holder_ft_7 {
+		text-align:center;
+		width: 100%;
+	}
+	.footer_7_gem_auto_parts_thm .logo_holder_ft_7 img{
+		left: 0px!important;
+	}
+	.footer_7_gem_auto_parts_thm .right_side_detalis h4{
+		margin-top: 10px!important;
+		text-align: center;
+	}
+	.footer_7_gem_auto_parts_thm .right_side_detalis ul li {
+		text-align: center;
+	}
+	.footer_8_gem_auto_parts_thm .company_link_ft_8,.footer_8_gem_auto_parts_thm .Newsletter_box h4,.footer_8_gem_auto_parts_thm .Newsletter_box p{
+		text-align: center!important;
+		margin-top: 20px;
+	}
+	.footer_8_gem_auto_parts_thm .upper_other_detalis_ft_8 .one_icon_sec{
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+}
+
+@media(min-width:991px) and (max-width: 1199px){
+	.footer_2_gem_auto_parts_thm .sep-element {
+		display: none;
+	}
+	.footer_3_gem_auto_parts_thm .contact_detalis_footer_3 a {
+		margin-right: 18px!important;
+	}
+	.footer_4_gem_auto_parts_thm .contactus_upper_detalis {
+		margin: -65px 0 70px!important;
+	}
+	.footer_4_gem_auto_parts_thm .detalis_contact_us_ft_thm .icon_and_tetx i{
+		margin-top: 15px!important;
+	}
+	.footer_4_gem_auto_parts_thm .detalis_contact_us_ft_thm .icon_and_tetx h4 {
+		margin-top: 35px!important;
+	}
+	.footer_4_gem_auto_parts_thm .detalis_contact_us_ft_thm .full_detalis_ft_4 span{
+		margin-top:35px!important;
+	}
+	.footer_4_gem_auto_parts_thm .detalis_contact_us_ft_thm .full_detalis_ft_4 {
+		margin-left: -40px;
+	}
+}
+
+/*end_Footer*/
+
+/*3box*/
+
+@media (min-width: 280px) and (max-width: 991px){
+	.gem_3_box_1_auto_parts .d-content_gem_box_1{
+		text-align: center;
+	}
+	.gem_3_box_1_auto_parts .d-content_gem_box_1 h1:before{
+		left: 0px!important;
+		margin-left: auto;
+		margin-right: auto;
+		right: 0px;
+	}
+	.gem_3_box_1_auto_parts .ful-section_gem_box_1 .col-lg-4:before {
+		bottom: 20px!important;
+		top:20px!important;
+	}
+	.gem_3_box_1_auto_parts .top-section_gem_box_1,.gem_3_box_3_auto_parts .comn_side_box_img_detalis{
+		margin:20px 0px;
+	}
+	.gem_3_box_2_auto_parts .btn_comn_box_2_gem_24,.gem_3_box_3_auto_parts .comn_side_box_img_detalis{
+		text-align: center;
+	}
+	.gem_3_box_6_auto_parts .image_holder_bx_6 img{
+		margin-bottom: 20px;
+	}
+	.gem_3_box_6_auto_parts .content_detalis_bx_6 h4{
+		font-size: 30px!important;
+	}
+	.animated_border_gem_auto_parts .cardBox{
+		margin-left: auto!important;
+		margin-right: auto!important;
+	}
+}
+@media (max-width: 767px){
+	.gem_upper_detalis_and_bottom_img_1 .upper_area_up_bt_box_gem{
+		display: block!important;
+		text-align: center;
+	}
+	.gem_upper_detalis_and_bottom_img_1 .icon_holder_upper_gem{
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.gem_3_box_2_auto_parts .btn_extra_box_2{
+		padding: 2px 10px!important;
+	}
+	.gem_3_box_2_auto_parts .content_box_2_gem h4 {
+		font-size: 20px;
+	}
+	.gem_3_box_3_auto_parts .left_side_box_comn_one h4 {
+		font-size: 15px!important;
+	}
+	.gem_3_box_3_auto_parts .left_side_box_comn_one p{
+		font-size: 10px!important;
+	}
+}
+/*end_3box*/
+
+/*Othersnippet*/
+
+@media (min-width:280px) and (max-width:991px){
+	.gem_our_good_categories_boxes_2 .desc_prodcuts_our_cat_2,.gem_our_good_categories_boxes_2 .tittle_main_our_cat,.latest_deals_for_this_week_gem .tittle_latest_deals_for,.best_selling_brands .upper_tittle_special_deals_box{	
+		text-align: center;
+		display: block!important;
+	}
+	.gem_our_good_categories_boxes_2 .centre_image_holder_our_cat{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.latest_deals_for_this_week_gem .product_detalis_comn_design,.latest_deals_for_this_week_gem .content_detalis_deals,.Special-deals-boxes-gem .img-holder_spe_deal_88646,.Special-deals-boxes-gem .desc_products_deals_box,.silder_2_with_one_banner .product_detalis_2_box_slider .img_holder_64654{
+		text-align: center;
+	}
+	.latest_deals_for_this_week_gem .product_detalis_comn_design .content_detalis_deals span,.latest_deals_for_this_week_gem .products_deals_cntr span,.silder_2_with_one_banner .tittle_upper_wk_deals{
+		justify-content: center;
+	}
+	.Special-deals-boxes-gem .left_side_box_deal_bx img{
+		display: none;
+	}
+	.silder_2_with_one_banner .box_comn_deisgn_multi_pro,.Countdown_product_with_daildeals_silder_gem .backgroud_white_box,.multi_products_silder_gem,.box_3_silder_s24 .box_comn_deisgn_multi_pro,.weekly_deals_sillder_gem{
+		height: auto!important;
+	}
+	.silder_2_with_one_banner .content_2_silder_one_banner,.best_seller_products .content_pro_detalis_gem{
+		text-align: center;
+		margin-top: 50px;
+	}
+	.Countdown_product_with_daildeals_silder_gem .content_details_bx_6, .Countdown_product_with_daildeals_silder_gem .right_side_box .count_down_swiper_auto_parts .col-lg-6,.multi_products_silder_gem .products_multi_pro_gem{
+		text-align: center;
+	}
+	.Countdown_product_with_daildeals_silder_gem .prize_content_count span{
+		justify-content: center;
+	}
+	.featured_products_with_deals_gem .desc_product_fea_gem,.weekly_deals_sillder_gem .img_wk_deals_holder,.img_desc_silder_gem_24 .img_holder_img_desc_24{
+		text-align: center;
+	}
+	.weekly_deals_sillder_gem .desc_wkly_deals_24{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.best_selling_products_with_tabs_s .right_side_tabs_detalis_bets_selling_pro,.best_selling_products_with_tabs_s .content_right_side_box h2,.hot_deal_products_s_auto_parts{
+		text-align: center!important;
+	}
+	.best_selling_products_with_tabs_s .content_right_side_box{
+		left: 0px;
+		right: 0px;
+	}
+	.best_selling_products_with_tabs_s .nav{
+		justify-content: center;
+		margin-top: 25px;
+	}
+	.hot_deal_products_s_auto_parts .image_holder_comn_design_hot_deals img{
+		margin-top: 0px!important;
+	}
+
+}
+@media (min-width:280px) and (max-width:767px){
+	.main_slider_4-gem_s .content_details_main_slider_1{
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 85px;
+	}
+	.main_slider_5-gem_s .content_details_main_slider_2{
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 35px;	
+	}
+	.main_slider_6-gem_s .content_details_main_slider_3 {
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 80px;		
+	}	
+	.main_slider_5-gem_s .btn_contactus_play_65465456{
+		justify-content: center;
+	}
+	.main_slider_4-gem_s .content_details_main_slider_1 p,.main_slider_4-gem_s .content_details_main_slider_1 h4,.main_slider_5-gem_s .content_details_main_slider_2 p,.main_slider_5-gem_s .content_details_main_slider_2 h4,.main_slider_6-gem_s .content_details_main_slider_3 h4{
+		font-size: inherit!important;
+	}
+	.main_slider_5-gem_s .swiper-slide .main_silder_comn_2_img_holder{
+		height: auto!important;
+	}
+	.main_slider_5-gem_s .swiper-button-next, .swiper-button-prev{
+		opacity: 0!important;
+	}
+	.main_slider_6-gem_s .btn_contactus_play_65465456,.main_slider_6-gem_s .other_detalis_main_sidler_3{
+		display:block!important;	
+		margin-bottom: 20px;
+	}
+	.main_slider_7-gem_s .content_details_main_slider_4{
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 150px;		
+	}
+	.main_slider_7-gem_s .content_details_main_slider_4 h4{
+		font-size: 45px!important;
+	}
+}
+@media (min-width:768px) and (max-width:991px){
+	.main_slider_4-gem_s .content_details_main_slider_1{
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 120px;
+	}
+	.main_slider_5-gem_s .content_details_main_slider_2{
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 100px;	
+	}
+	.main_slider_4-gem_s .content_details_main_slider_1 p,.main_slider_4-gem_s .content_details_main_slider_1 h4,.main_slider_5-gem_s .content_details_main_slider_2 p,.main_slider_5-gem_s .content_details_main_slider_2 h4{
+		font-size: 25px!important;
+	}
+	.main_slider_5-gem_s .btn_contactus_play_65465456,.main_slider_6-gem_s .btn_contactus_play_65465456{
+		justify-content: center;
+	}
+	.main_slider_6-gem_s .content_details_main_slider_3 {
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 80px;		
+	}
+	.main_slider_7-gem_s .content_details_main_slider_4{
+		left: 0px!important;
+		right: 0px;
+		text-align: center;
+		top: 150px;		
+	}
+	.main_slider_7-gem_s .content_details_main_slider_4 h4{
+		font-size: 55px!important;
+	}	
+}
+
+@media (min-width:280px) and (max-width:567px){
+	.hot_deal_products_s_auto_parts{
+		height: 700px!important;
+	}
+	.hot_deal_products_s_auto_parts .white_bg_holder_hot_deal{
+		height: auto!important;
+	}
+	.hot_deal_products_s_auto_parts .content_hot_deals_auto_parts{
+		margin-top: 35px!important;
+	}
+	.latest_offer_slider_auto_parts_theme_S{
+		height: 460px!important;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+	.multi_products_silder_gem .content_pro_detalis_gem h4{
+		font-size: 18px;
+	}
+}
+@media (min-width:568px) and (max-width:991px){
+	.gem_our_good_categories_boxes_2 .desc_prodcuts_our_cat_2,.gem_our_good_categories_boxes_2 .tittle_main_our_cat{
+		margin: 80px 0px;
+	}
+	.gem_our_good_categories_boxes_2 .detalis_cntr_image_gem_box_2 h4{
+		word-break: all;
+	}
+	.hot_deal_products_s_auto_parts .content_hot_deals_auto_parts{
+		margin-top: 35px!important;
+	}
+	.latest_offer_slider_auto_parts_theme_S {
+		margin-bottom: 75px!important;
+	}
+}
+
+/*end_Othersnippet*/
+
+/*homepage_slider*/
+
+@media only screen and (min-width:1000px) and (max-width:1500px){
+  .swiper_auto_parts_special_offer .swiper-slide {
+    width: calc((98%) /2)!important;
+    margin-right:21px!important;
+  }
+  .features_products_swiper_silder .swiper-slide{
+  	width: calc((96%) /4)!important;
+    margin-right:14px!important;	
+  }
+  .multi_tabs_one_auto_parts .swiper-slide{
+  	width: calc((96%) /4)!important;
+    margin-right:16px!important;	
+  }
+  .rcm_pro_swiper_auto_parts .swiper-slide{
+  	width: calc((96%) /4)!important;
+    margin-right:14px!important;	
+  }
+}
+@media only screen and (min-width:1200px) and (max-width:1500px){
+	.flash_sale_2_2 .swiper-slide{
+  		width: calc((93%) /4)!important;
+    	margin-right:25px!important;	
+  	}
+  	.hot_deals_pro_s .swiper-slide{
+  		width: calc((95%) /2)!important;
+    	margin-right:35px!important;	
+  	}
+  	.latest_Offer_s .swiper-slide{
+  		width: calc((95%) /2)!important;
+    	margin-right:35px!important;	
+  	}
+  	.our_services_s .swiper-slide{
+  		width: calc((92%) /3)!important;
+    	margin-right: 36px!important;
+  	}
+  	.spe_deal_2_s .swiper-slide{
+  		width: calc((94%) /2)!important;
+    	margin-right: 36px!important;
+  	}
+}
+
+/*end_homepage_slider*/
+
+
+
+
+
