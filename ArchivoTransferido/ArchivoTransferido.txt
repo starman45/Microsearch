@@ -1,5 +1,2 @@
 Este archivo debio ser movio ala rama 1.0
-<<<<<<< HEAD
 Por segunda vez
-=======
->>>>>>> dbfdede (Revert "[Add] Archivo transferido por 2da vez")
