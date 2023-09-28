@@ -14,7 +14,7 @@ class StockMove(models.Model):
         return res
 
     def _action_assign(self,force_qty=False):
-        res = super(StockMove, self)._action_assign(force_qty=force_qty)
+        res = super(StockMove, self)._action_assign()
         for picking_id in self.picking_id:
             if not picking_id.multi_ecommerce_connector_id and picking_id.sale_id and picking_id.sale_id.multi_ecommerce_connector_id:
                 picking_id.write({'multi_ecommerce_connector_id': picking_id.sale_id.multi_ecommerce_connector_id.id})
