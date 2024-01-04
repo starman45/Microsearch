@@ -1,6 +1,36 @@
-[submodule "Prueba/test"]
-	path = Prueba/test
-	url = git@github.com:OCA/field-service.git
-[submodule "Prueba/field-service"]
-	path = Prueba/field-service
-	url = git@github.com:OCA/field-service.git
+[submodule "OCA/purchase-workflow"]
+	url = https://github.com/OCA/purchase-workflow.git
+	path = OCA/purchase-workflow
+	branch = refs/heads/16.0
+[submodule "OCA/account-financial-tools"]
+	url = https://github.com/OCA/account-financial-tools.git
+	path = OCA/account-financial-tools
+	branch = refs/heads/16.0
+[submodule "OCA/hr"]
+	url = https://github.com/OCA/hr.git
+	path = OCA/hr
+	branch = refs/heads/16.0
+[submodule "OCA/hr-timesheet"]
+	url = https://github.com/OCA/hr-timesheet.git
+	path = OCA/hr-timesheet
+	branch = refs/heads/16.0
+[submodule "OCA/mis-builder"]
+	url = https://github.com/OCA/mis-builder.git
+	path = OCA/mis-builder
+	branch = refs/heads/16.0
+[submodule "OCA/server-ux"]
+	url = https://github.com/OCA/server-ux.git
+	path = OCA/server-ux
+	branch = refs/heads/16.0
+[submodule "OCA/bank-payment"]
+	url = https://github.com/OCA/bank-payment.git
+	path = OCA/bank-payment
+	branch = refs/heads/16.0
+[submodule "OCA/hr-expense"]
+	url = https://github.com/OCA/hr-expense.git
+	path = OCA/hr-expense
+	branch = refs/heads/16.0
+[submodule "odoomates/odooapps"]
+	url = https://github.com/odoomates/odooapps.git
+	path = odoomates/odooapps
+	branch = refs/heads/16.0
