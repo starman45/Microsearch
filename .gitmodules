@@ -34,3 +34,6 @@
 	url = https://github.com/odoomates/odooapps.git
 	path = odoomates/odooapps
 	branch = refs/heads/16.0
+[submodule "Drayer"]
+	path = Drayer
+	url = https://github.com/Drayer-Consulting/dc_l10n_pe_reports_base
